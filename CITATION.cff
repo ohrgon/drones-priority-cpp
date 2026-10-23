@@ -5,7 +5,7 @@ type: software
 version: 1.0.0
 date-released: 2026-10-23
 license: MIT
-repository-code: "https://github.com/ohrgon/Single-UAV-Coverage-Path-Planning-with-Priority-Weighted-First-Visit-Latency-and-Completion-Time"
+repository-code: "https://github.com/ohrgon/drones-priority-cpp"
 authors:
   - family-names: Oh
     given-names: Youngon
