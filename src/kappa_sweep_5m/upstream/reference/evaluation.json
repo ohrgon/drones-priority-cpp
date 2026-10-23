@@ -1,0 +1,8 @@
+{
+  "checkpoint": "last_model_only_no_selection",
+  "deterministic": true,
+  "full_test": "disabled in this rerun",
+  "initial_seed": 20260907,
+  "seed": 42,
+  "validation": "final fixed 5M only; no checkpoint selection"
+}

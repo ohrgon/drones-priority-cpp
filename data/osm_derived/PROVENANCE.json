@@ -1,0 +1,13 @@
+{
+  "source": "OpenStreetMap",
+  "source_snapshot_date": null,
+  "download_date": null,
+  "source_provider": null,
+  "geographic_bounds": null,
+  "query_or_extract_id": null,
+  "processing_script": null,
+  "processing_parameters": null,
+  "selection_manifest": "data/manifest_original.csv",
+  "license": "ODbL-1.0",
+  "note": "Unknown source metadata is left null. Preserve the actual original selection audit."
+}

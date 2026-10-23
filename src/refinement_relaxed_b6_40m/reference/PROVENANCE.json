@@ -1,0 +1,32 @@
+{
+  "source_files": [
+    {
+      "archive": "UPLOAD_B6_EXISTING20M_TO40M_results.zip",
+      "sha256": "9d88652d9a3a3fe48dfbba56ac4bd8b4ecc085064f46176a03c41355d1cc2a3e",
+      "members": {
+        "plan.json": "5f7fb3023b0ab88627707a338adb77a6337ba285c768a97a527e67c82ad75270",
+        "report/all_per_map.csv": "114a5b99d46cbb96cb4ff7f1d0514d000a592669e0681a0e59a31af6e19815ef",
+        "report/permanent_checkpoint_inventory.csv": "ac70b4907856df25455b60ef0077d17909d9c1f16c08d45355ef787966524580"
+      }
+    },
+    {
+      "archive": "B124_40M_REFINED_REVIEW.zip",
+      "sha256": "138b9c83cdafe6b5825c4aafea43e136b7de85d3d4961f5e3c65d3e17bd15834",
+      "members": {
+        "report/all_B124_raw_refined_per_map.csv": "36077add326c23347a48923c09988c365dc6f69fcf89109d80bf8e41a17e7788",
+        "report/reused_reference_raw_refined_per_map.csv": "68c5e757ab184a8465ceff4a2e6464001cfce863c17c458e97793b5235ec06a1",
+        "protocol.json": "41fa0a6addba48b811c942e52af2a582d87b2de2f8e6a339609db5fde1453dac",
+        "evaluation_manifest.csv": "040dfa05b2f258ff8784b4080bc7ad1a11d48ffa8650419deb8734ec650acb7f"
+      }
+    }
+  ],
+  "raw_reference_rows": 1400,
+  "previous_reference_rows": 18520,
+  "solver_sha256": "17fae45921bf966613a7053dd8e8fcf0a8a6bc28f12359e46f1d0fdb2d6b601e",
+  "common_driver_sha256": "fb9559c905210f83693bfd0190394d79c5c549482ef8ca59c2e78d69ebfd327e",
+  "native_budget_guard_sha256": "aad3c62176c21cdb73872defa99f2c1120d83cdce5963d05daab8a3eb0384187",
+  "native_support_sha256": "2e71835a1c374e628db9736b353aeb23545461b987adb50ac7f13395ad3ace85",
+  "common_driver_change": "None: common driver / SegmentGraph / guard / support copied byte-identically from B124 refinement package",
+  "previous_refinement_scope": "B0 Validation and Test40M; B1/B2/B4 Validation and Test40M; classical Test only; map metrics reused, no new optimization",
+  "new_scope": "B6 FULL beta0.5 40001536step Validation180 + Test720 + OSM500 only"
+}

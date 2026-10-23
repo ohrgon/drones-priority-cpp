@@ -1,0 +1,8 @@
+{
+  "B6": {
+    "sha256": "eea33db123316cb34f6be101135c1d0101614660bce6b9ae66a0091bc1cdde6d",
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_B6_beta05_EXISTING20M_to40M_CP5M_VAL1M_seed42/B6/continue_existing20M_to40M/runs/ppo_COST11_FULL_B6_beta05_seed42_existing20M_to40M/checkpoints/step_40001536.zip",
+    "num_timesteps": 40001536,
+    "nominal_m": 40
+  }
+}

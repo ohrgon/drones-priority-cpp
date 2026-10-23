@@ -1,0 +1,23 @@
+{
+  "scope": "Relaxed B6 beta0.5 FULL seed42 5M, Synthetic Validation 180 only",
+  "summary_costs_matched_extracted.csv": {
+    "source_name": "summary_costs_matched.csv",
+    "source_file_id": "file_00000000a434820690d9cabae0dcd688",
+    "representation": "CSV reconstructed from complete Files extracted text; original index column omitted. Not a byte-identical raw-file download.",
+    "source_confirmation": "common_n=163 for the 12 settings kappa in {1,3,5,7,9,10,11,12,13,14,15,20}; kappa25/30 success=0",
+    "limitation": "Aggregate values and reported denominator verified from source text; the complete 12-condition per-map membership has not been recovered or independently reconstructed here."
+  },
+  "cost_3_7_9_11.csv": {
+    "archive": "UPLOAD_CH5_TARGETED_20261003_003239_a76f424c.zip",
+    "member": "evidence/chapter4_C3NT_COST_3_7_9_11_connection_diagnostic_validation/per_map_all_costs.csv",
+    "representation": "byte-identical archive member"
+  },
+  "cost_10_12_13_14.csv": {
+    "archive": "UPLOAD_CH5_TARGETED_20261003_003239_a76f424c.zip",
+    "member": "evidence/chapter4_C3NT_COST_10_12_13_14_connection_diagnostic_validation/per_map_all_costs.csv",
+    "representation": "byte-identical archive member"
+  },
+  "missing": "COST1 original checkpoint/native metadata or authenticated validation trajectories not yet located. No invented COST1 Refined values.",
+  "fixed_conditions": {"B":6,"beta":0.5,"nominal_steps":5000000,"expected_actual_steps":5005312,"seed":42,"horizon":"ceil(5*N)"},
+  "not_included": "B6 40M, Test/OSM, new training"
+}

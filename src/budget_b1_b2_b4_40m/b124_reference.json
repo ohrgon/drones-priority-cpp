@@ -1,0 +1,565 @@
+{
+  "schema": 1,
+  "source_upload": "UPLOAD_TEST8_action_choices.zip",
+  "source_upload_sha256": "3fc5da9b27661d76b94ab17650d3977331ac59859b1e6cedde85fe4c7ce833ec",
+  "strict": {
+    "B": 0,
+    "beta": 0.5,
+    "checkpoint": {
+      "final": false,
+      "nominal_m": 40,
+      "num_timesteps": 40001536,
+      "optimizer_block": 8192,
+      "origin": "continuation",
+      "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_40001536.zip",
+      "selection": "fixed_40M_first_completed_update_not_test_selected",
+      "sha256": "d4e1e43687dd2bb266116a31a1542ba7ce014dab454ed40d3b24388e58f1f32a"
+    },
+    "family": "strict",
+    "key": "ppo_b0_beta05_40m",
+    "kind": "ppo",
+    "label": "PPO B0 beta=0.5 40M",
+    "native_version": "cnn3_noclock_cost11_strict_progress_v1_20260929",
+    "nominal_m": 40,
+    "protocol_sources": {
+      "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/plan.json": "68bbb926811de83f502fe0629603a4c367b97cf6f66477744d71c5bb9c3c305d",
+      "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/continuation_protocol.json": "1ad8f1e8c3365b1d9bd7202f42496059abb807d28bf183874b18e380556e303d"
+    },
+    "runtime_kind": "strict",
+    "settings": {
+      "checkpoint_every_timesteps": 1000000,
+      "continuation": {
+        "initial_boundary": "policy+optimizer restored; episodes and global RNG restarted",
+        "later_recovery": "native optimizer-boundary full environment/sampler/RNG/optimizer recovery",
+        "learning_rate": 5e-05,
+        "lr_rule": "constant_source_final_floor",
+        "partial_source_episodes": "discard up to 8 unfinished episodes; not counted as failures",
+        "sampler_rule": "verify-and-advance-original-balanced-order-from-each-rank-log",
+        "source_episodes": 5751,
+        "source_epoch_counter": 2444,
+        "source_model": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/strict_b05/source_5m/last_model.zip",
+        "source_model_sha256": "32812ba0da658631751b00d9d14247c331beb9bf02e3f359af9746755518e406",
+        "source_run_id": "ppo_progress_C3NT_COST11_FULL_H5_b0.5_g1_l0.95_budgetobs_strictsweep_seed42",
+        "source_step": 5005312,
+        "target_timesteps": 20000000,
+        "test_access": "source experiments have already been evaluated; continuation is a separate diagnostic",
+        "version": "cost11_three_5m_to_20m_v1_20260930"
+      },
+      "device": "cuda:0",
+      "episode_print_every": 10,
+      "map_sequence_seed": 20260506,
+      "maximum_replay_bytes": 4000000000,
+      "num_envs": 8,
+      "off_policy": {
+        "alpha": 0.2,
+        "auto_alpha": false,
+        "batch_size": 256,
+        "buffer_size": 50000,
+        "entropy_fraction": 0.98,
+        "epsilon_final": 0.05,
+        "epsilon_fraction": 0.2,
+        "epsilon_initial": 1.0,
+        "exploration_noise": 0.1,
+        "features": 256,
+        "gamma": 0.998,
+        "gradient_steps": 1,
+        "hidden": [
+          256,
+          256
+        ],
+        "learning_rate": 0.0003,
+        "learning_starts": 10000,
+        "max_grad_norm": 0.5,
+        "policy_delay": 2,
+        "target_noise_clip": 0.5,
+        "target_policy_noise": 0.2,
+        "target_update_updates": 1000,
+        "tau": 0.005,
+        "train_freq_vector_steps": 1
+      },
+      "ppo": {
+        "batch_size": 2048,
+        "clip_range": 0.2,
+        "ent_coef": 0.0005,
+        "gae_lambda": 0.95,
+        "gamma": 1.0,
+        "learning_rate_floor": 5e-05,
+        "learning_rate_initial": 5e-05,
+        "max_grad_norm": 0.5,
+        "n_epochs": 4,
+        "n_steps": 1024,
+        "target_kl": 0.02,
+        "vf_coef": 0.5
+      },
+      "resume_every_timesteps": 50000,
+      "resume_keep_generations": 2,
+      "retain_completed_resume": true,
+      "save_replay_final": false,
+      "tensorboard": true,
+      "torch_threads": 4,
+      "total_timesteps": 20000000
+    },
+    "snapshot": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter5_TEST8_action_choices_B0_40M_B6_5M/_runtime/36d1da69627e6efde4bc",
+    "software": {
+      "cpu_count": 48,
+      "cuda_available": true,
+      "cuda_version": "12.6",
+      "gpus": [
+        "NVIDIA GeForce RTX 3090"
+      ],
+      "gymnasium": "1.1.1",
+      "numpy": "2.2.6",
+      "platform": "Linux-5.15.0-131-generic-x86_64-with-glibc2.31",
+      "pyproj": null,
+      "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:45:41) [GCC 13.3.0]",
+      "sb3-contrib": "2.7.0",
+      "scipy": "1.9.1",
+      "shapely": null,
+      "stable-baselines3": "2.7.0",
+      "torch": "2.7.1"
+    },
+    "software_evidence": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/plan.json::jobs.strict_b05.software",
+    "sources": {
+      "c3nt_cost_sweep_generated_core.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/c3nt_cost_sweep_generated_core.py",
+        "sha256": "bf80e7c13f8dd0c7f83a776725c01d5607031bb116588212ad7db032bcac52d5"
+      },
+      "c3nt_cost_sweep_generated_logging.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/c3nt_cost_sweep_generated_logging.py",
+        "sha256": "b6715684c6b190a8f6a952241aa5568e4c9e4bbb9ef9bcc099d88448431409c2"
+      },
+      "core_ch4.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/core_ch4.py",
+        "sha256": "4874b3553e87f592e1c7e25c2e35ec78a216d4a7830a5f57029f725c5ef0d3ca"
+      },
+      "core_ch4_bounded_b6.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/core_ch4_bounded_b6.py",
+        "sha256": "da866974297f7187063a267ce3b6332072d38e68700a4e9d44c7e4ed51ec912d"
+      },
+      "coverage_core.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/coverage_core.py",
+        "sha256": "866d939c45fc51e6b9471582418017c5fe6f23b144aec76f9bfd4f331fde1c9d"
+      },
+      "full_v2_utils.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/full_v2_utils.py",
+        "sha256": "8a4aa1ea1adeeaac473bc38966eb9983f1826caf5d04b0cd955ffd253bbd903a"
+      },
+      "nrg1_c3nt_cost5_features.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/nrg1_c3nt_cost5_features.py",
+        "sha256": "57c8aca1afd9b530f01687e5ba4c34602be7f04d34e759468a3dbf9eba57598b"
+      },
+      "resume_ch4.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/resume_ch4.py",
+        "sha256": "c9fa408f610d50cfe1e6486cd4b503e1e5df7e0d931ed3696deac3b04ffec0c3"
+      },
+      "trainers_ch4_c3nt_cost_sweep.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_snapshot/trainers_ch4_c3nt_cost_sweep.py",
+        "sha256": "0049fb0f18f07cd80f2ec96a6ad16510843d01dcd1703ec7250435c80908585e"
+      }
+    },
+    "spec": {
+      "algorithm": "ppo",
+      "beta": 0.5,
+      "budget_observation": true,
+      "configuration_id": "ppo_progress_C3NT_COST11_FULL_H5_b0.5_g1_l0.95_budgetobs_strictsweep__continue_to_20000000",
+      "continuation": {
+        "initial_boundary": "policy+optimizer restored; episodes and global RNG restarted",
+        "later_recovery": "native optimizer-boundary full environment/sampler/RNG/optimizer recovery",
+        "learning_rate": 5e-05,
+        "lr_rule": "constant_source_final_floor",
+        "partial_source_episodes": "discard up to 8 unfinished episodes; not counted as failures",
+        "sampler_rule": "verify-and-advance-original-balanced-order-from-each-rank-log",
+        "source_episodes": 5751,
+        "source_epoch_counter": 2444,
+        "source_model": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/strict_b05/source_5m/last_model.zip",
+        "source_model_sha256": "32812ba0da658631751b00d9d14247c331beb9bf02e3f359af9746755518e406",
+        "source_run_id": "ppo_progress_C3NT_COST11_FULL_H5_b0.5_g1_l0.95_budgetobs_strictsweep_seed42",
+        "source_step": 5005312,
+        "target_timesteps": 20000000,
+        "test_access": "source experiments have already been evaluated; continuation is a separate diagnostic",
+        "version": "cost11_three_5m_to_20m_v1_20260930"
+      },
+      "continuation_protocol_sha256": "eaf41fd2f4d3f851cd6a266bd0eea3850ed7ee5fb86595051efeb718ff5cdb80",
+      "coverage_scale": 0.0,
+      "detour_budget_max": 6,
+      "environment": {
+        "cell_size_m": 16.0,
+        "coverage_reward_scale": 0.0,
+        "detour_budget_max": 6,
+        "failure_terminal_penalty": 0.0,
+        "grid_size": 50,
+        "history_alpha": 0.96,
+        "initialization": "priority_mass",
+        "invalid_action_penalty": 1.0,
+        "invalid_heading_rule": "preserve",
+        "invalid_time_rule": "straight_control_interval",
+        "mask_mode": "progress",
+        "objective_cost_scale": 0.0,
+        "paper_coarse_factor": 4,
+        "paper_local_radius": 5,
+        "paper_mode": "none",
+        "step_budget_factor": 5.0,
+        "success_terminal_reward": 0.0,
+        "tradeoff_beta": 0.5,
+        "v_straight": 11.462,
+        "v_turn": 5.67
+      },
+      "external_stop": {
+        "cap_steps": "ceil(environment.step_budget_factor*N)",
+        "clock_observed": false,
+        "normalization_step_factor": 5.0,
+        "reset_after_cap": true,
+        "safety_step_factor": 5.0,
+        "timeout_penalty": 0.0
+      },
+      "fresh_weights": false,
+      "initialization": "priority_mass",
+      "legacy_scalar_reward_coefficients_active": false,
+      "mapping": "preference4",
+      "mask": "progress",
+      "mission_time_observation": false,
+      "objective_scale": 0.0,
+      "remaining_step_observation": false,
+      "reward_case": "NRG1_C3NT_COST11",
+      "reward_definition": {
+        "cost": "-11*((1-beta)+beta*W_pre/W_total)*dt/(ceil(5*N)*time_turn_sec)",
+        "cost_multiplier": 11.0,
+        "external_cap": "terminated=False, truncated=True; SB3 adds gamma*V(last_state)",
+        "failure_terminal": 0.0,
+        "first_visit": "delta_new_active_count / active_cell_count",
+        "initial_cell": "visited at reset, no first-visit reward at reset",
+        "legacy_engine_coefficients": "all zero: adapter REPLACES legacy reward",
+        "metrics": "Capped unfinished paths remain evaluation failures; Lw=null",
+        "normalization": "ceil(5*N)*time_turn: independent of external execution cap",
+        "prefix_returns": "No success/failure separation assertion on truncated prefix returns",
+        "singleton": "first step acknowledges completion with +2 and no movement",
+        "success_terminal": 2.0,
+        "version": "cnn3_noclock_cost11_strict_progress_v1_20260929"
+      },
+      "run_id": "ppo_progress_C3NT_COST11_FULL_H5_b0.5_g1_l0.95_budgetobs_strictsweep_seed42__continue_to_20000000",
+      "seed": 42,
+      "source_protocol_sha256": "09d397e3dc3875d3fc037e66d280a370be956a194b93d7f2c823887055c9f245",
+      "source_weights_used": true,
+      "stage": "cost11_extended_training"
+    },
+    "strict50m_source_sha256": "09fcb0efd73c49d7b5728dce3fcd3e4fe137b9940417de3fbf22b83fac1de5b0"
+  },
+  "relaxed": {
+    "B": 6,
+    "beta": 0.5,
+    "checkpoint": {
+      "nominal_m": 5,
+      "num_timesteps": 5005312,
+      "optimizer_block": 8192,
+      "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_5m/last_model.zip",
+      "selection": "authenticated_original_source_5m_not_continued_last_model",
+      "sha256": "873700af5d80ab0d0589763d9483c5927e92a17766cf2c4c3f6ad5adbc2b6a46",
+      "source_run_id": "ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42"
+    },
+    "family": "relaxed",
+    "key": "ppo_b6_beta05_5m",
+    "kind": "ppo",
+    "label": "PPO B6 beta=0.5 5M",
+    "native_version": "nrg1_cnn3_noclock_externalcap_cost11_sweep_v1_20260926",
+    "nominal_m": 5,
+    "protocol_sources": {
+      "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/continuation_protocol.json": "2c4f1dffc95f5fde440d2294a2acd000800d54eddd47c4fb039299e6e232f4de"
+    },
+    "runtime_kind": "relaxed",
+    "settings": {
+      "checkpoint_every_timesteps": 1000000,
+      "continuation": {
+        "initial_boundary": "policy+optimizer restored; episodes and global RNG restarted",
+        "later_recovery": "native optimizer-boundary full environment/sampler/RNG/optimizer recovery",
+        "learning_rate": 5e-05,
+        "lr_rule": "constant_source_final_floor",
+        "partial_source_episodes": "discard up to 8 unfinished episodes; not counted as failures",
+        "sampler_rule": "verify-and-advance-original-balanced-order-from-each-rank-log",
+        "source_episodes": 3480,
+        "source_epoch_counter": 2444,
+        "source_model": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_5m/last_model.zip",
+        "source_model_sha256": "873700af5d80ab0d0589763d9483c5927e92a17766cf2c4c3f6ad5adbc2b6a46",
+        "source_run_id": "ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42",
+        "source_step": 5005312,
+        "target_timesteps": 20000000,
+        "test_access": "source experiments have already been evaluated; continuation is a separate diagnostic",
+        "version": "cost11_three_5m_to_20m_v1_20260930"
+      },
+      "device": "cuda:0",
+      "episode_print_every": 10,
+      "map_sequence_seed": 20260506,
+      "maximum_replay_bytes": 4000000000,
+      "num_envs": 8,
+      "off_policy": {
+        "alpha": 0.2,
+        "auto_alpha": false,
+        "batch_size": 256,
+        "buffer_size": 50000,
+        "entropy_fraction": 0.98,
+        "epsilon_final": 0.05,
+        "epsilon_fraction": 0.2,
+        "epsilon_initial": 1.0,
+        "exploration_noise": 0.1,
+        "features": 256,
+        "gamma": 0.998,
+        "gradient_steps": 1,
+        "hidden": [
+          256,
+          256
+        ],
+        "learning_rate": 0.0003,
+        "learning_starts": 10000,
+        "max_grad_norm": 0.5,
+        "policy_delay": 2,
+        "target_noise_clip": 0.5,
+        "target_policy_noise": 0.2,
+        "target_update_updates": 1000,
+        "tau": 0.005,
+        "train_freq_vector_steps": 1
+      },
+      "ppo": {
+        "batch_size": 2048,
+        "clip_range": 0.2,
+        "ent_coef": 0.0005,
+        "gae_lambda": 0.95,
+        "gamma": 1.0,
+        "learning_rate_floor": 5e-05,
+        "learning_rate_initial": 5e-05,
+        "max_grad_norm": 0.5,
+        "n_epochs": 4,
+        "n_steps": 1024,
+        "target_kl": 0.02,
+        "vf_coef": 0.5
+      },
+      "resume_every_timesteps": 50000,
+      "resume_keep_generations": 2,
+      "retain_completed_resume": true,
+      "save_replay_final": false,
+      "tensorboard": true,
+      "torch_threads": 4,
+      "total_timesteps": 20000000
+    },
+    "snapshot": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter5_TEST8_action_choices_B0_40M_B6_5M/_runtime/d86d3af817658a0fecec",
+    "software": {
+      "cpu_count": 48,
+      "cuda_available": true,
+      "cuda_version": "12.6",
+      "gpus": [
+        "NVIDIA GeForce RTX 3090"
+      ],
+      "gymnasium": "1.1.1",
+      "numpy": "2.2.6",
+      "platform": "Linux-5.15.0-131-generic-x86_64-with-glibc2.31",
+      "pyproj": null,
+      "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:45:41) [GCC 13.3.0]",
+      "sb3-contrib": "2.7.0",
+      "scipy": "1.9.1",
+      "shapely": null,
+      "stable-baselines3": "2.7.0",
+      "torch": "2.7.1"
+    },
+    "software_evidence": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/software.json (continuation runtime metadata)",
+    "sources": {
+      "c3nt_cost_sweep_generated_core.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/c3nt_cost_sweep_generated_core.py",
+        "sha256": "807817035c9d5c3da4c36caf2b56a52128f68f7eb50b2787873ac0215a4960b0"
+      },
+      "c3nt_cost_sweep_generated_logging.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/c3nt_cost_sweep_generated_logging.py",
+        "sha256": "a47136ce682789f032c3fe847ba9d98bb94fa6886eedafc5c097ae8305ffcdae"
+      },
+      "core_ch4.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/core_ch4.py",
+        "sha256": "4874b3553e87f592e1c7e25c2e35ec78a216d4a7830a5f57029f725c5ef0d3ca"
+      },
+      "core_ch4_bounded_b6.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/core_ch4_bounded_b6.py",
+        "sha256": "da866974297f7187063a267ce3b6332072d38e68700a4e9d44c7e4ed51ec912d"
+      },
+      "coverage_core.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/coverage_core.py",
+        "sha256": "866d939c45fc51e6b9471582418017c5fe6f23b144aec76f9bfd4f331fde1c9d"
+      },
+      "full_v2_utils.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/full_v2_utils.py",
+        "sha256": "8a4aa1ea1adeeaac473bc38966eb9983f1826caf5d04b0cd955ffd253bbd903a"
+      },
+      "nrg1_c3nt_cost5_features.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/nrg1_c3nt_cost5_features.py",
+        "sha256": "57c8aca1afd9b530f01687e5ba4c34602be7f04d34e759468a3dbf9eba57598b"
+      },
+      "resume_ch4.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/resume_ch4.py",
+        "sha256": "c9fa408f610d50cfe1e6486cd4b503e1e5df7e0d931ed3696deac3b04ffec0c3"
+      },
+      "trainers_ch4_c3nt_cost_sweep.py": {
+        "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_snapshot/trainers_ch4_c3nt_cost_sweep.py",
+        "sha256": "0049fb0f18f07cd80f2ec96a6ad16510843d01dcd1703ec7250435c80908585e"
+      }
+    },
+    "spec": {
+      "algorithm": "ppo",
+      "beta": 0.5,
+      "budget_observation": true,
+      "configuration_id": "ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs__continue_to_20000000",
+      "continuation": {
+        "initial_boundary": "policy+optimizer restored; episodes and global RNG restarted",
+        "later_recovery": "native optimizer-boundary full environment/sampler/RNG/optimizer recovery",
+        "learning_rate": 5e-05,
+        "lr_rule": "constant_source_final_floor",
+        "partial_source_episodes": "discard up to 8 unfinished episodes; not counted as failures",
+        "sampler_rule": "verify-and-advance-original-balanced-order-from-each-rank-log",
+        "source_episodes": 3480,
+        "source_epoch_counter": 2444,
+        "source_model": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_5m/last_model.zip",
+        "source_model_sha256": "873700af5d80ab0d0589763d9483c5927e92a17766cf2c4c3f6ad5adbc2b6a46",
+        "source_run_id": "ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42",
+        "source_step": 5005312,
+        "target_timesteps": 20000000,
+        "test_access": "source experiments have already been evaluated; continuation is a separate diagnostic",
+        "version": "cost11_three_5m_to_20m_v1_20260930"
+      },
+      "coverage_scale": 0.0,
+      "detour_budget_max": 6,
+      "environment": {
+        "cell_size_m": 16.0,
+        "coverage_reward_scale": 0.0,
+        "detour_budget_max": 6,
+        "failure_terminal_penalty": 0.0,
+        "grid_size": 50,
+        "history_alpha": 0.96,
+        "initialization": "priority_mass",
+        "invalid_action_penalty": 1.0,
+        "invalid_heading_rule": "preserve",
+        "invalid_time_rule": "straight_control_interval",
+        "mask_mode": "relaxed",
+        "objective_cost_scale": 0.0,
+        "paper_coarse_factor": 4,
+        "paper_local_radius": 5,
+        "paper_mode": "none",
+        "step_budget_factor": 5.0,
+        "success_terminal_reward": 0.0,
+        "tradeoff_beta": 0.5,
+        "v_straight": 11.462,
+        "v_turn": 5.67
+      },
+      "external_stop": {
+        "cap_steps": "ceil(environment.step_budget_factor*N)",
+        "clock_observed": false,
+        "normalization_step_factor": 5.0,
+        "reset_after_cap": true,
+        "safety_step_factor": 5.0,
+        "timeout_penalty": 0.0
+      },
+      "fresh_weights": false,
+      "initialization": "priority_mass",
+      "legacy_scalar_reward_coefficients_active": false,
+      "mapping": "preference4",
+      "mask": "relaxed_b6",
+      "mission_time_observation": false,
+      "objective_scale": 0.0,
+      "remaining_step_observation": false,
+      "reward_case": "NRG1_C3NT_COST11",
+      "reward_definition": {
+        "cost": "-11*((1-beta)+beta*W_pre/W_total)*dt/(ceil(5*N)*time_turn_sec)",
+        "cost_multiplier": 11.0,
+        "external_cap": "terminated=False, truncated=True; SB3 adds gamma*V(last_state)",
+        "failure_terminal": 0.0,
+        "first_visit": "delta_new_active_count / active_cell_count",
+        "initial_cell": "visited at reset, no first-visit reward at reset",
+        "legacy_engine_coefficients": "all zero: adapter REPLACES legacy reward",
+        "metrics": "Capped unfinished paths remain evaluation failures; Lw=null",
+        "normalization": "ceil(5*N)*time_turn: independent of external execution cap",
+        "prefix_returns": "No success/failure separation assertion on truncated prefix returns",
+        "singleton": "first step acknowledges completion with +2 and no movement",
+        "success_terminal": 2.0,
+        "version": "nrg1_cnn3_noclock_externalcap_cost11_sweep_v1_20260926"
+      },
+      "run_id": "ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000",
+      "seed": 42,
+      "source_protocol_sha256": "c51cf9308fd6e67015745bd62b25bbfb3f0056ab3c3e95a168454575801ab313",
+      "source_weights_used": true,
+      "stage": "cost11_extended_training"
+    }
+  },
+  "initial_5m_settings_evidence": {
+    "checkpoint_every_timesteps": 200000,
+    "device": "cuda:0",
+    "episode_print_every": 10,
+    "map_sequence_seed": 20260506,
+    "maximum_replay_bytes": 4000000000,
+    "num_envs": 8,
+    "off_policy": {
+      "alpha": 0.2,
+      "auto_alpha": false,
+      "batch_size": 256,
+      "buffer_size": 50000,
+      "entropy_fraction": 0.98,
+      "epsilon_final": 0.05,
+      "epsilon_fraction": 0.2,
+      "epsilon_initial": 1.0,
+      "exploration_noise": 0.1,
+      "features": 256,
+      "gamma": 0.998,
+      "gradient_steps": 1,
+      "hidden": [
+        256,
+        256
+      ],
+      "learning_rate": 0.0003,
+      "learning_starts": 10000,
+      "max_grad_norm": 0.5,
+      "policy_delay": 2,
+      "target_noise_clip": 0.5,
+      "target_policy_noise": 0.2,
+      "target_update_updates": 1000,
+      "tau": 0.005,
+      "train_freq_vector_steps": 1
+    },
+    "ppo": {
+      "batch_size": 2048,
+      "clip_range": 0.2,
+      "ent_coef": 0.0005,
+      "gae_lambda": 0.95,
+      "gamma": 1.0,
+      "learning_rate_floor": 5e-05,
+      "learning_rate_initial": 0.00025,
+      "max_grad_norm": 0.5,
+      "n_epochs": 4,
+      "n_steps": 1024,
+      "target_kl": 0.02,
+      "vf_coef": 0.5
+    },
+    "resume_every_timesteps": 50000,
+    "resume_keep_generations": 2,
+    "retain_completed_resume": false,
+    "save_replay_final": false,
+    "tensorboard": true,
+    "torch_threads": 4,
+    "total_timesteps": 5000000
+  },
+  "manifest": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/protocols_5m_seed42/manifest.csv",
+  "manifest_sha256": "6c3853577b5a8b96178e89caa81311091b6aa17c37f6cb11dfdeb4f24a77e68a",
+  "expected_splits": {
+    "osm/test": 500,
+    "synthetic/test": 720,
+    "synthetic/train": 900,
+    "synthetic/validation": 180
+  },
+  "initial_seed": 20260907,
+  "evaluation_seed": 42,
+  "physics": {
+    "cell_size_m": 16.0,
+    "grid_size": 50,
+    "history_alpha": 0.96,
+    "initialization": "priority_mass",
+    "step_budget_factor": 5.0,
+    "v_straight": 11.462,
+    "v_turn": 5.67
+  },
+  "test_access_note": "Existing test sets have been inspected during development; split exclusion does not restore untouched-test status.",
+  "bundle_files": {
+    "reference_validation_baselines.csv": "f31ca9f4beb210867f5eb5c28d06ca4b1247a52dd0864bd5194e78f6df782ad6",
+    "reference_test_baselines.csv": "74d0187d876facb621bbf7be0d26be638a4b34505a6b54418961cef12c7a51da"
+  }
+}

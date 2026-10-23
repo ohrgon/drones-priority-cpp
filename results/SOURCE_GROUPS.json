@@ -1,0 +1,196 @@
+{
+  "FULL_NTERM_NCOV_40M_raw_per_map": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "baseline_compatibility_labels_per_map": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "budget_B0_B1_B2_B4_B6_raw_and_refined_per_map": {
+    "status": "selected_unexecuted",
+    "files": [
+      "src/refinement_relaxed_b6_40m/reference/previous_B0124_classical_Raw_Refined.csv.gz"
+    ],
+    "support_files": [
+      "results/refinement_b6_common/report/common_success_map_ids.csv"
+    ],
+    "missing_primary": []
+  },
+  "canonical_test_manifest_and_initial_states": {
+    "status": "selected_unexecuted",
+    "files": [
+      "src/refinement_relaxed_b6_40m/reference/evaluation_manifest1400.csv"
+    ],
+    "support_files": [
+      "src/refinement_relaxed_b6_40m/reference/PROVENANCE.json"
+    ],
+    "missing_primary": []
+  },
+  "component_ablation_per_map": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "fixed_BCD_and_WLG_test_per_map": {
+    "status": "selected_unexecuted",
+    "files": [
+      "src/refinement_relaxed_b6_40m/reference/previous_B0124_classical_Raw_Refined.csv.gz"
+    ],
+    "support_files": [
+      "src/refinement_relaxed_b6_40m/reference/PROVENANCE.json"
+    ],
+    "missing_primary": []
+  },
+  "fixed_selector_per_map": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "flight_coordinate_transform_config": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "flight_planned_grid_paths_and_KMZ": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "flight_sample_matching_code_or_distances": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "nomask_boundary_only_40M_test_per_map": {
+    "status": "selected_unexecuted",
+    "files": [
+      "results/mask_controls_seed42/report/all_controls_test_per_map.csv"
+    ],
+    "support_files": [
+      "results/mask_controls_seed42/plan.json",
+      "results/mask_controls_seed42/none/protocol.json",
+      "results/mask_controls_seed42/boundary/protocol.json"
+    ],
+    "missing_primary": []
+  },
+  "pattern_to_family_mapping": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "refinement_audit_per_map": {
+    "status": "selected_unexecuted",
+    "files": [
+      "results/main_seeds_8_77/strict_seed8/evaluation/test/refinement_audit_per_map.csv",
+      "results/main_seeds_8_77/strict_seed77/evaluation/test/refinement_audit_per_map.csv",
+      "results/main_seeds_8_77/relaxed_seed8/evaluation/test/refinement_audit_per_map.csv",
+      "results/main_seeds_8_77/relaxed_seed77/evaluation/test/refinement_audit_per_map.csv",
+      "results/refinement_b6_common/methods/B6/audit_per_map.csv"
+    ],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "seed42_relaxed_test_raw_and_refined_per_map": {
+    "status": "selected_unexecuted",
+    "files": [
+      "results/refinement_b6_common/report/all_B6_raw_refined_per_map.csv"
+    ],
+    "support_files": [
+      "results/refinement_b6_common/protocol.json",
+      "results/refinement_b6_common/input_audit.json",
+      "src/refinement_relaxed_b6_40m/reference/evaluation_manifest1400.csv",
+      "results/refinement_b6_common/report/audit.json",
+      "results/refinement_b6_common/methods/B6/complete.json"
+    ],
+    "missing_primary": []
+  },
+  "seed42_strict_test_raw_and_refined_per_map": {
+    "status": "selected_unexecuted",
+    "files": [
+      "src/refinement_relaxed_b6_40m/reference/previous_B0124_classical_Raw_Refined.csv.gz"
+    ],
+    "support_files": [
+      "src/refinement_relaxed_b6_40m/reference/PROVENANCE.json"
+    ],
+    "missing_primary": []
+  },
+  "seed8_and_seed77_test_raw_and_refined_per_map": {
+    "status": "selected_unexecuted",
+    "files": [
+      "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
+      "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
+      "results/main_seeds_8_77/strict_seed77/evaluation/test/raw_per_map.csv",
+      "results/main_seeds_8_77/strict_seed77/evaluation/test/refined_per_map.csv",
+      "results/main_seeds_8_77/relaxed_seed8/evaluation/test/raw_per_map.csv",
+      "results/main_seeds_8_77/relaxed_seed8/evaluation/test/refined_per_map.csv",
+      "results/main_seeds_8_77/relaxed_seed77/evaluation/test/raw_per_map.csv",
+      "results/main_seeds_8_77/relaxed_seed77/evaluation/test/refined_per_map.csv"
+    ],
+    "support_files": [
+      "results/main_seeds_8_77/strict_seed8/evaluation/test/summary.json",
+      "results/main_seeds_8_77/strict_seed8/evaluation/test/complete.json",
+      "results/main_seeds_8_77/strict_seed77/evaluation/test/summary.json",
+      "results/main_seeds_8_77/strict_seed77/evaluation/test/complete.json",
+      "results/main_seeds_8_77/relaxed_seed8/evaluation/test/summary.json",
+      "results/main_seeds_8_77/relaxed_seed8/evaluation/test/complete.json",
+      "results/main_seeds_8_77/relaxed_seed77/evaluation/test/summary.json",
+      "results/main_seeds_8_77/relaxed_seed77/evaluation/test/complete.json",
+      "results/main_seeds_8_77/strict_seed8/training_result.json",
+      "results/main_seeds_8_77/strict_seed77/training_result.json",
+      "results/main_seeds_8_77/relaxed_seed8/training_result.json",
+      "results/main_seeds_8_77/relaxed_seed77/training_result.json"
+    ],
+    "missing_primary": []
+  },
+  "selected14_segment_boundaries": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": [
+      "CH5_Selected9_Flight_Error_Audit/selected14_segments.csv"
+    ]
+  },
+  "selected9_route_binding": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": [
+      "CH5_Selected9_Flight_Error_Audit/selected9_errors.csv"
+    ]
+  },
+  "selected_flight_raw_CSVs": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "stored_BCD_and_WLG_refined_action_traces": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "two_selected_priority_maps": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  },
+  "validation_checkpoint_per_map": {
+    "status": "needs_mapping",
+    "files": [],
+    "support_files": [],
+    "missing_primary": []
+  }
+}

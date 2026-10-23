@@ -1,0 +1,29 @@
+{
+  "strict_b05": {
+    "beta": 0.5,
+    "model": "strict_b05",
+    "nominal_m": 40,
+    "num_timesteps": 40001536,
+    "origin": "continuation",
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_40001536.zip",
+    "sha256": "d4e1e43687dd2bb266116a31a1542ba7ce014dab454ed40d3b24388e58f1f32a"
+  },
+  "strict_b0": {
+    "beta": 0.0,
+    "model": "strict_b0",
+    "nominal_m": 40,
+    "num_timesteps": 40001536,
+    "origin": "continuation",
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b0/runs/ppo_progress_COST11_FULL_b0_seed42_to50M_v2/checkpoints/step_40001536.zip",
+    "sha256": "42f3afc80f61686f60706ec80923fcfaa0a3c1e292323438893078a875bb897d"
+  },
+  "strict_b1": {
+    "beta": 1.0,
+    "model": "strict_b1",
+    "nominal_m": 40,
+    "num_timesteps": 40001536,
+    "origin": "continuation",
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b1/runs/ppo_progress_COST11_FULL_b1_seed42_to50M_v2/checkpoints/step_40001536.zip",
+    "sha256": "685b018013e4cf7f6b90e5e1c2222e226220ee417b6d7a817e32f066b1ae3d75"
+  }
+}

@@ -1,0 +1,28 @@
+test_actual_connector_shortening (__main__.Tests.test_actual_connector_shortening) ... ok
+test_cache_rejects_tampering (__main__.Tests.test_cache_rejects_tampering) ... ok
+test_core_coefficient_one (__main__.Tests.test_core_coefficient_one) ... ok
+test_core_reward_success_cap (__main__.Tests.test_core_reward_success_cap) ... ok
+test_duplicate_rejected (__main__.Tests.test_duplicate_rejected) ... ok
+test_existing_eight_complete (__main__.Tests.test_existing_eight_complete) ... ok
+test_existing_k11_values (__main__.Tests.test_existing_k11_values) ... ok
+test_failed_trajectory_unchanged (__main__.Tests.test_failed_trajectory_unchanged) ... ok
+test_fresh_parameters (__main__.Tests.test_fresh_parameters) ... ok
+test_initial_pair_rejected (__main__.Tests.test_initial_pair_rejected) ... ok
+test_map_hash_rejected (__main__.Tests.test_map_hash_rejected) ... ok
+test_native_trace_refinement_and_success (__main__.Tests.test_native_trace_refinement_and_success) ... ok
+test_native_trainer_generation (__main__.Tests.test_native_trainer_generation) ... ok
+test_new_common_recomputed (__main__.Tests.test_new_common_recomputed) ... ok
+test_no_165_success_requirement (__main__.Tests.test_no_165_success_requirement) ... ok
+test_raw_commit_preserved_separately (__main__.Tests.test_raw_commit_preserved_separately) ... ok
+test_refine_engine_unchanged (__main__.Tests.test_refine_engine_unchanged) ... ok
+test_report_without_learning (__main__.Tests.test_report_without_learning) ... [REPORT] PARTIAL; COST1=0/180. Other eight: reused CSV only.
+[REVIEW ZIP] /tmp/tmpb5px1dcx/TABLE514_KAPPA1_FRESH5M_REVIEW.zip
+ok
+test_saved_raw_resume_no_model_inference (__main__.Tests.test_saved_raw_resume_no_model_inference) ... ok
+test_training_and_eval_membership (__main__.Tests.test_training_and_eval_membership) ... ok
+test_zero_common_is_not_zero_time (__main__.Tests.test_zero_common_is_not_zero_time) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.226s
+
+OK

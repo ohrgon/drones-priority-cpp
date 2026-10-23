@@ -1,0 +1,105 @@
+[
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/source_5m/last_model.zip",
+    "num_timesteps": 5005312,
+    "sha256": "873700af5d80ab0d0589763d9483c5927e92a17766cf2c4c3f6ad5adbc2b6a46",
+    "final": false,
+    "source_baseline": true
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_6004736.zip",
+    "num_timesteps": 6004736,
+    "sha256": "5b90409df93d30ae15a3d3c387176a5ffe1b6f152459182917a3bae308e367df",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_7004160.zip",
+    "num_timesteps": 7004160,
+    "sha256": "d2c58eeb145b49663a739e293c6903791216cd863635c006f62e9150af4b909d",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_8003584.zip",
+    "num_timesteps": 8003584,
+    "sha256": "03ed696d28a0118bfb93003aa58ef46378d0a80e53806abed46cd11a2922a0d9",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_9003008.zip",
+    "num_timesteps": 9003008,
+    "sha256": "2337828eca07d4574d0afa3a4a41651d01f58b3c7b2bc6f6e813f6e7e1f091b9",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_10002432.zip",
+    "num_timesteps": 10002432,
+    "sha256": "c832d9196cce030f2cff5f92160d37153f62a2a3cc9a49e91f68f1187305943a",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_11001856.zip",
+    "num_timesteps": 11001856,
+    "sha256": "6baf019c801e45d12840d6b21430c36089850dd51bf7d486a542f39c94486469",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_12001280.zip",
+    "num_timesteps": 12001280,
+    "sha256": "e11b90df01e0814135c97d005f013906f703873c5d1183607858194d3392fd27",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_13000704.zip",
+    "num_timesteps": 13000704,
+    "sha256": "0759f7d3b1237ac90f29f0c728ba4fb06b7a53d42b750536cecff3f505d61e68",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_14000128.zip",
+    "num_timesteps": 14000128,
+    "sha256": "6144aa5f5ea6c47630d40da13a03e98464827357edbf58333432f9faed7bdca4",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_15007744.zip",
+    "num_timesteps": 15007744,
+    "sha256": "c243de3b794e54b6b0e06ade86efec1f86d66107811d00f6bfe5cf6d8edc53ed",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_16007168.zip",
+    "num_timesteps": 16007168,
+    "sha256": "4be395be84149820950a9e8a031fa2cec4201893d49819434d76f6feb3d0d7ba",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_17006592.zip",
+    "num_timesteps": 17006592,
+    "sha256": "892eee6ab57dea4f1a7a1a965ea7d67cd71786f39995f26f0a952c9250755905",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_18006016.zip",
+    "num_timesteps": 18006016,
+    "sha256": "76a120e39cd00088ce1462eec8db891388913ab5aed06e04d8ac91fea646c77f",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_19005440.zip",
+    "num_timesteps": 19005440,
+    "sha256": "49e9cdc8c4180a4c4b4d0d757e7f3c476210259679118a38c791013a91b4b6be",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/checkpoints/step_20004864.zip",
+    "num_timesteps": 20004864,
+    "sha256": "3457630b5cf4eeb39bf26f0f1c0bbbfedb9a096c6a0778bb814a28009f0bb852",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_5M_to_20M_seed42/relaxed_b05/runs/ppo_relaxedB6_NRG1_C3NT_COST11_b0.5_g1_l0.95_budgetobs_seed42__continue_to_20000000/last_model.zip",
+    "num_timesteps": 20004864,
+    "sha256": "84c4e2ea4b390d4993b6fbb1a5ada77799fc7eae9c4709253657dbff6c938887",
+    "final": true
+  }
+]

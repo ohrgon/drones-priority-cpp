@@ -1,0 +1,34 @@
+Data license
+============
+
+1. Synthetic maps, trained checkpoints, and result files
+--------------------------------------------------------
+
+The files under data/synthetic/, data/flight_logs/, models/, results/, and the
+reference CSV/JSON inputs stored inside src/*/reference/ and src/*/evidence/
+were produced by the authors and are released under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Oh, Y.; Song, C.; Oh, J.; Lee, I. (2026). Single-UAV Coverage Path
+Planning with Priority-Weighted First-Visit Latency and Completion Time --
+reproduction materials. University of Seoul.
+
+2. OpenStreetMap-derived maps
+-----------------------------
+
+The files under data/osm_derived/ are proxy-priority grids derived from
+OpenStreetMap data for the Seoul area (latitude 37.413-37.715, longitude
+126.734-127.269). OpenStreetMap data is (c) OpenStreetMap contributors and is
+available under the Open Database License (ODbL) 1.0,
+https://www.openstreetmap.org/copyright
+
+As a derivative of that database, data/osm_derived/ is distributed under the
+same ODbL 1.0 terms. If you redistribute these grids or works derived from them,
+keep this attribution and license notice.
+
+3. Trademarks
+-------------
+
+"DJI" and "Matrice" are trademarks of their respective owners and are mentioned
+only to identify the aircraft used for the flight measurements.

@@ -1,0 +1,33 @@
+Local source/runtime/cache/aggregation tests only. Temporary fixtures are NOT manuscript results. No real PPO training was executed.
+
+test_01_fixed_cost_set (test_extension.ExtensionTests.test_01_fixed_cost_set) ... ok
+test_02_original_hyperparameters (test_extension.ExtensionTests.test_02_original_hyperparameters) ... ok
+test_03_only_time_costs_scale (test_extension.ExtensionTests.test_03_only_time_costs_scale) ... ok
+test_04_terminal_failure_and_singleton (test_extension.ExtensionTests.test_04_terminal_failure_and_singleton) ... ok
+test_05_same_transitions_masks_and_scaled_return (test_extension.ExtensionTests.test_05_same_transitions_masks_and_scaled_return) ... ok
+test_06_refinement_shorten_order_heading_preserved (test_extension.ExtensionTests.test_06_refinement_shorten_order_heading_preserved) ... ok
+test_07_failed_paths_never_repaired (test_extension.ExtensionTests.test_07_failed_paths_never_repaired) ... ok
+test_08_native_trainer_and_engine_unchanged (test_extension.ExtensionTests.test_08_native_trainer_and_engine_unchanged) ... ok
+test_09_private_snapshot_configured (test_extension.ExtensionTests.test_09_private_snapshot_configured) ... ok
+test_10_twelve_common_recomputed (test_extension.ExtensionTests.test_10_twelve_common_recomputed) ... ok
+test_11_empty_common_is_undefined_not_zero (test_extension.ExtensionTests.test_11_empty_common_is_undefined_not_zero) ... ok
+test_12_duplicate_rejected (test_extension.ExtensionTests.test_12_duplicate_rejected) ... ok
+test_13_membership_and_pair_rejected (test_extension.ExtensionTests.test_13_membership_and_pair_rejected) ... ok
+test_14_changed_old_eight_rejected (test_extension.ExtensionTests.test_14_changed_old_eight_rejected) ... ok
+test_15_test_and_wrong_checkpoint_rejected (test_extension.ExtensionTests.test_15_test_and_wrong_checkpoint_rejected) ... ok
+test_16_reference_csv_zip_and_freeze (test_extension.ExtensionTests.test_16_reference_csv_zip_and_freeze) ... ok
+test_17_missing_kappa1_does_not_fabricate (test_extension.ExtensionTests.test_17_missing_kappa1_does_not_fabricate) ... ok
+test_18_raw_complete_cache_tamper_rejected (test_extension.ExtensionTests.test_18_raw_complete_cache_tamper_rejected) ... ok
+test_19_spawned_cpu_refinement_all_costs (test_extension.ExtensionTests.test_19_spawned_cpu_refinement_all_costs) ... ok
+test_20_no_numeric_target_reproduction (test_extension.ExtensionTests.test_20_no_numeric_target_reproduction) ... ok
+test_21_reference_one_only_equals_wide_nine (test_extension.ExtensionTests.test_21_reference_one_only_equals_wide_nine) ... ok
+test_22_report_complete_and_partial (test_extension.ExtensionTests.test_22_report_complete_and_partial) ... [REPORT] COMPLETE; new Raw/Refined maps=540/540; existing=1620/1620
+[REVIEW ZIP] /tmp/tmp9zlcsoi2/TABLE514_KAPPA5_15_20_REVIEW.zip
+[REPORT] PARTIAL; new Raw/Refined maps=0/540; existing=1440/1620
+[REVIEW ZIP] /tmp/tmp__trepye/TABLE514_KAPPA5_15_20_REVIEW.zip
+ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 6.570s
+
+OK

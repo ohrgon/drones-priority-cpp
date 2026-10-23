@@ -1,0 +1,25 @@
+{
+  "tests_run": 22,
+  "passed": 22,
+  "failed": 0,
+  "actual_gpu_training": false,
+  "actual_5m_training": false,
+  "actual_user_validation180_rollouts": false,
+  "sb3_model_instantiation_tested": false,
+  "tested": [
+    "cost-only reward scaling for 5/15/20",
+    "fixed transition/mask/observation logic",
+    "completion/failed-prefix handling",
+    "common refinement and arrival heading/order preservation",
+    "spawned CPU worker case isolation",
+    "raw and refined cache reuse",
+    "saved nine/one-condition CSV/ZIP input and protection",
+    "twelve-condition shared-set means, empty intersection and partial reports"
+  ],
+  "unavailable_packages": [
+    "gymnasium",
+    "stable-baselines3",
+    "sb3-contrib"
+  ],
+  "note": "Real 5M training and PPO recovery execute in the original server dqn_env; no results invented."
+}

@@ -1,0 +1,7 @@
+# Four core versions requested for reproduction.
+# Original templates additionally record Python3.10.18 and NumPy2.2.6.
+# Complete installed versions are in environment/requirements-observed.txt.
+stable-baselines3==2.7.0
+sb3-contrib==2.7.0
+torch==2.7.1
+gymnasium==1.1.1

@@ -1,0 +1,24 @@
+{
+  "cache_origins": {
+    "own_final40m_native_raw_inferred": 1220
+  },
+  "checkpoint": {
+    "num_timesteps": 40001536,
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/main_seeds_8_77/strict_seed77/stages/stage40M/runs/ppo_strict_C3NT_COST11_FULL_H5_b0.5_seed77__continue_to_40000000/last_model.zip",
+    "sha256": "c776757b2e8ffa2cd751f4e2d7d4f4e42127919664c24439039038fee5653d31"
+  },
+  "files": {
+    "raw_per_map.csv": "13c7affede7fe677786ca4fa854f9efe7dfc6c7eeb18da600f94074722e211cb",
+    "refined_per_map.csv": "1b6c4b6404d469b932b9ec5f642c745239eb226e3163a8449a8ca0410d87a5d5",
+    "refinement_audit_per_map.csv": "e196c541b2ad547a0985de6b27e50c9864dc1e9a11d67135d10a01b32046dd02",
+    "summary.json": "44c03ad19867af7b8e76b67fba942e704092c48cf4f3e859b5728ed81c6df8b7"
+  },
+  "identity": "82245163e3f8de8c03830bdeed47a03904c2b77c521d17307674033b3fd03862",
+  "method": "strict",
+  "n_maps": 1220,
+  "optimizer_updates": 0,
+  "output_dir": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/main_seeds_8_77/strict_seed77/evaluation/test",
+  "seed": 77,
+  "split": "test",
+  "state": "completed"
+}

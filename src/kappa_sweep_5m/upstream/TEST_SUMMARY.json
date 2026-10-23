@@ -1,0 +1,11 @@
+{
+  "tests_run": 21,
+  "passed": 21,
+  "failed": 0,
+  "scope": "NumPy native COST1 environment, fixed-heading refinement, existing 1,440 rows and common-set recomputation, input identities, raw/complete cache reuse, source transformation and packaging",
+  "gpu_training_executed": false,
+  "sb3_model_instantiation_executed": false,
+  "reason": "gymnasium/stable-baselines3/sb3-contrib unavailable in current authoring runtime; network dependency installation unavailable. Server preflight uses original dqn_env.",
+  "actual_kappa1_validation_results_generated": false,
+  "test_fixture_metrics_used_as_research_results": false
+}

@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the software release and the paper."
+title: "Single-UAV Coverage Path Planning with Priority-Weighted First-Visit Latency and Completion Time: reproduction materials"
+type: software
+version: 1.0.0
+date-released: 2026-10-23
+license: MIT
+repository-code: "https://github.com/ohrgon/Single-UAV-Coverage-Path-Planning-with-Priority-Weighted-First-Visit-Latency-and-Completion-Time"
+authors:
+  - family-names: Oh
+    given-names: Youngon
+    affiliation: "Department of Geoinformatics, University of Seoul"
+  - family-names: Song
+    given-names: Chanui
+    affiliation: "Department of Geoinformatics, University of Seoul"
+  - family-names: Oh
+    given-names: Jeonghyo
+    affiliation: "Department of Geoinformatics, University of Seoul"
+  - family-names: Lee
+    given-names: Impyeong
+    affiliation: "Department of Geoinformatics, University of Seoul"
+    email: iplee@uos.ac.kr
+keywords:
+  - UAV coverage path planning
+  - priority-aware planning
+  - weighted first-visit latency
+  - proximal policy optimization
+  - action masking
+  - progress constraints
+  - connection refinement
+preferred-citation:
+  type: article
+  title: "Single-UAV Coverage Path Planning with Priority-Weighted First-Visit Latency and Completion Time"
+  journal: "Drones"
+  year: 2026
+  notes: "Submitted; update volume, pages and DOI after publication."
+  authors:
+    - family-names: Oh
+      given-names: Youngon
+    - family-names: Song
+      given-names: Chanui
+    - family-names: Oh
+      given-names: Jeonghyo
+    - family-names: Lee
+      given-names: Impyeong

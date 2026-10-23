@@ -1,0 +1,13 @@
+{
+  "source_archive_name": "B124_FOR_B6_SOURCE_20261003_162615_a78f3ba6.zip",
+  "source_archive_sha256": "3e0e0e7ba7666d1c7c572c099336e4f80c22ecf2522c78f1d723111a4acc2193",
+  "original_plan_sha256": "433a96d3ef0a6c377758321f40bdd1c59c149dc219660b597c0d484d8fdd21c4",
+  "unchanged_modules": {
+    "b124_engine.py": "262e358be8074c21a39bb35a162fe8e0a29cc2213fd0856ef284bd01885ae151",
+    "b124_native_support.py": "2e71835a1c374e628db9736b353aeb23545461b987adb50ac7f13395ad3ace85",
+    "b124_evaluation.py": "0e1e823b9541d2ac2850618888fc1cac0f4cc062a82265462742529cb54c6c0a",
+    "b124_core_guard.py": "aad3c62176c21cdb73872defa99f2c1120d83cdce5963d05daab8a3eb0384187",
+    "b124_report.py": "c5f24bd86d2b50dc1c10b01d11ed86b10a501a487316e8589ccdb2341c9f490c"
+  },
+  "scope": "Original B124 source and settings. No trained weights included."
+}

@@ -1,0 +1,62 @@
+{
+  "version": "main_cost11_shared_seed8_77_v1_20261020",
+  "historical_seed": 42,
+  "added_seeds": [
+    8,
+    77
+  ],
+  "same_seed_pair_for_both_methods": true,
+  "new_independent_training_runs": 4,
+  "planned_seeds_per_method": [
+    42,
+    8,
+    77
+  ],
+  "nominal_steps_per_new_run": 40000000,
+  "cumulative_stage_targets": [
+    5000000,
+    20000000,
+    40000000
+  ],
+  "actual_stage_steps": [
+    5005312,
+    20004864,
+    40001536
+  ],
+  "jobs": [
+    {
+      "method": "strict",
+      "seed": 8,
+      "effective_B": 0
+    },
+    {
+      "method": "relaxed",
+      "seed": 8,
+      "effective_B": 6
+    },
+    {
+      "method": "strict",
+      "seed": 77,
+      "effective_B": 0
+    },
+    {
+      "method": "relaxed",
+      "seed": 77,
+      "effective_B": 6
+    }
+  ],
+  "dataset_counts": {
+    "synthetic/train": 900,
+    "synthetic/validation": 180,
+    "synthetic/test": 720,
+    "osm/test": 500
+  },
+  "reward": "FULL COST11",
+  "beta": 0.5,
+  "initial_weights": "fresh for every (method, seed)",
+  "later_weights": "only the same job's preceding stage",
+  "evaluation_seed": 42,
+  "initial_seed": 20260907,
+  "random_seed_draw": false,
+  "execution_state": "configuration_only"
+}

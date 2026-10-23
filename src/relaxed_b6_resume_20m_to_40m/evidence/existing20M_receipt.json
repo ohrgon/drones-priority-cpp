@@ -1,0 +1,12 @@
+{
+  "source_archive": "UPLOAD_CH5_TARGETED_20261003_003239_a76f424c.zip",
+  "source_archive_sha256": "04324da185d6ddd3aa28d66ce4d64e145275808b70e260f2e8c9dce7fe578abf",
+  "experiment": "chapter4_COST11_5M_to_20M_seed42/relaxed_b05",
+  "requested_new_total": 40000000,
+  "source_actual_step": 20004864,
+  "source_final_sha256": "84c4e2ea4b390d4993b6fbb1a5ada77799fc7eae9c4709253657dbff6c938887",
+  "source_step20M_sha256": "3457630b5cf4eeb39bf26f0f1c0bbbfedb9a096c6a0778bb814a28009f0bb852",
+  "original_5M_sha256": "873700af5d80ab0d0589763d9483c5927e92a17766cf2c4c3f6ad5adbc2b6a46",
+  "source_physics_reward_CNN_matches_B124_B6": true,
+  "note": "Evidence of a completed previous 20M run. Actual weights and sampler logs must be present and checked on server. No fresh training fallback."
+}

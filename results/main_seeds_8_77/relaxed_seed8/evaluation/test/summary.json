@@ -1,0 +1,102 @@
+{
+  "raw": {
+    "checkpoint": {
+      "num_timesteps": 40001536,
+      "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/main_seeds_8_77/relaxed_seed8/stages/stage40M/runs/ppo_relaxed_C3NT_COST11_FULL_H5_b0.5_seed8__continue_to_40000000/last_model.zip",
+      "sha256": "2f66f9cdf322595e43ccdb3798ad63d06bdb742c82cdd86faec72641958b1434"
+    },
+    "groups": [
+      {
+        "coverage_pct_all": 99.42949027810967,
+        "mission_time_mean_all_prefixes_sec": 2244.8194340197037,
+        "mission_time_sec": 2269.184081331725,
+        "n_maps": 1220,
+        "n_success": 1177,
+        "priority_weighted_first_visit_latency_sec": 898.772548185123,
+        "source": "all",
+        "success_pct": 96.47540983606558,
+        "time_mean_n": 1177,
+        "time_mean_population": "own_successful_maps"
+      },
+      {
+        "coverage_pct_all": 100.0,
+        "mission_time_mean_all_prefixes_sec": 2533.8871278055035,
+        "mission_time_sec": 2533.8871278055035,
+        "n_maps": 500,
+        "n_success": 500,
+        "priority_weighted_first_visit_latency_sec": 1000.4390304617212,
+        "source": "osm",
+        "success_pct": 100.0,
+        "time_mean_n": 500,
+        "time_mean_population": "own_successful_maps"
+      },
+      {
+        "coverage_pct_all": 99.0333029712414,
+        "mission_time_mean_all_prefixes_sec": 2044.0779800017872,
+        "mission_time_sec": 2073.687001218152,
+        "n_maps": 720,
+        "n_success": 677,
+        "priority_weighted_first_visit_latency_sec": 823.686519915848,
+        "source": "synthetic",
+        "success_pct": 94.02777777777777,
+        "time_mean_n": 677,
+        "time_mean_population": "own_successful_maps"
+      }
+    ],
+    "method": "relaxed",
+    "note": "Times in the main fields use successful maps only; failed-path Lw stays undefined. Validation and test are separate. Across-seed paired analyses should join map IDs and initial_pair_id, and declare a common-success population when failures differ.",
+    "split": "test",
+    "stage": "raw",
+    "train_seed": 8
+  },
+  "refined": {
+    "checkpoint": {
+      "num_timesteps": 40001536,
+      "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/main_seeds_8_77/relaxed_seed8/stages/stage40M/runs/ppo_relaxed_C3NT_COST11_FULL_H5_b0.5_seed8__continue_to_40000000/last_model.zip",
+      "sha256": "2f66f9cdf322595e43ccdb3798ad63d06bdb742c82cdd86faec72641958b1434"
+    },
+    "groups": [
+      {
+        "coverage_pct_all": 99.42949027810967,
+        "mission_time_mean_all_prefixes_sec": 1891.7843014101975,
+        "mission_time_sec": 1903.2513185589148,
+        "n_maps": 1220,
+        "n_success": 1177,
+        "priority_weighted_first_visit_latency_sec": 838.7063918774218,
+        "source": "all",
+        "success_pct": 96.47540983606558,
+        "time_mean_n": 1177,
+        "time_mean_population": "own_successful_maps"
+      },
+      {
+        "coverage_pct_all": 100.0,
+        "mission_time_mean_all_prefixes_sec": 2159.778462318729,
+        "mission_time_sec": 2159.778462318729,
+        "n_maps": 500,
+        "n_success": 500,
+        "priority_weighted_first_visit_latency_sec": 955.5914445523913,
+        "source": "osm",
+        "success_pct": 100.0,
+        "time_mean_n": 500,
+        "time_mean_population": "own_successful_maps"
+      },
+      {
+        "coverage_pct_all": 99.0333029712414,
+        "mission_time_mean_all_prefixes_sec": 1705.6772452237171,
+        "mission_time_sec": 1713.7925713212385,
+        "n_maps": 720,
+        "n_success": 677,
+        "priority_weighted_first_visit_latency_sec": 752.3806513493791,
+        "source": "synthetic",
+        "success_pct": 94.02777777777777,
+        "time_mean_n": 677,
+        "time_mean_population": "own_successful_maps"
+      }
+    ],
+    "method": "relaxed",
+    "note": "Times in the main fields use successful maps only; failed-path Lw stays undefined. Validation and test are separate. Across-seed paired analyses should join map IDs and initial_pair_id, and declare a common-success population when failures differ.",
+    "split": "test",
+    "stage": "refined",
+    "train_seed": 8
+  }
+}

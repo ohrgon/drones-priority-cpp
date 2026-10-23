@@ -1,0 +1,12 @@
+{
+  "checkpoint_sha256": "eea33db123316cb34f6be101135c1d0101614660bce6b9ae66a0091bc1cdde6d",
+  "checkpoint_step": 40001536,
+  "files": {
+    "audit_per_map.csv": "2dbcec8de620a58a944be04e984b8283cf9773c48461a07d71415db404c32df7",
+    "raw_per_map.csv": "0e5b78571e8049ba36f86de248346cefeb59030a071df50ccdad23c7835331f5",
+    "refined_per_map.csv": "740d347cdb531827fc2fe17819d65a115fac726937ea48809707bf4704ca39c1"
+  },
+  "identity": "92eae66cec8e731df4c39db63636846eec1fa1d9c06f5c2177eb30dda0fd3688",
+  "key": "B6",
+  "n_maps": 1400
+}

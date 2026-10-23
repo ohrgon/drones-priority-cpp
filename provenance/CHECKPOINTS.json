@@ -1,0 +1,38 @@
+[
+  {
+    "model": "strict_seed42",
+    "package_path": "models/strict/seed42/final_40001536.zip",
+    "sha256": "d4e1e43687dd2bb266116a31a1542ba7ce014dab454ed40d3b24388e58f1f32a",
+    "status": "copied"
+  },
+  {
+    "model": "relaxed_seed42",
+    "package_path": "models/relaxed/seed42/final_40001536.zip",
+    "sha256": "eea33db123316cb34f6be101135c1d0101614660bce6b9ae66a0091bc1cdde6d",
+    "status": "copied"
+  },
+  {
+    "model": "strict_seed8",
+    "package_path": "models/strict/seed8/final_40001536.zip",
+    "sha256": "6e2c3756a11ad10f0452b67a267cd8bbea917ccbcf7328f0628be74d0076b8be",
+    "status": "copied"
+  },
+  {
+    "model": "strict_seed77",
+    "package_path": "models/strict/seed77/final_40001536.zip",
+    "sha256": "c776757b2e8ffa2cd751f4e2d7d4f4e42127919664c24439039038fee5653d31",
+    "status": "copied"
+  },
+  {
+    "model": "relaxed_seed8",
+    "package_path": "models/relaxed/seed8/final_40001536.zip",
+    "sha256": "2f66f9cdf322595e43ccdb3798ad63d06bdb742c82cdd86faec72641958b1434",
+    "status": "copied"
+  },
+  {
+    "model": "relaxed_seed77",
+    "package_path": "models/relaxed/seed77/final_40001536.zip",
+    "sha256": "10c9fca33fd653c6bf35d46f3ad433feb530d2a28fe8aca54227701364c34693",
+    "status": "copied"
+  }
+]

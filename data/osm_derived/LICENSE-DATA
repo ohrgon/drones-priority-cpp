@@ -1,0 +1,14 @@
+OpenStreetMap-derived data
+
+© OpenStreetMap contributors.
+OpenStreetMap source data is available under the Open Data Commons
+Open Database License (ODbL) 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Attribution and copyright information:
+https://www.openstreetmap.org/copyright
+
+This directory is prepared for distributing the OpenStreetMap-derived
+database under ODbL 1.0. The repository's software license does not replace
+these data-license terms. Preserve actual provenance and transformation
+records. Unknown fields in PROVENANCE.json remain null.

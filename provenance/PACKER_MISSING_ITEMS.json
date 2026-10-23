@@ -1,0 +1,232 @@
+[
+  {
+    "code": "source_missing",
+    "message": "src/mask_controls_40m/README_TABLE55_CONTROLS40M_FRESH_KO.txt",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/CH5_Selected9_Flight_Error_Audit/README_KO.md",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/CH5_Selected9_Flight_Error_Audit/document_scope_audit.json",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/CH5_Selected9_Flight_Error_Audit/recompute_selected9.py",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/CH5_Selected9_Flight_Error_Audit/selected14_segments.csv",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/CH5_Selected9_Flight_Error_Audit/selected5_time_boundary_sensitivity.csv",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/CH5_Selected9_Flight_Error_Audit/selected9_audit.json",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/CH5_Selected9_Flight_Error_Audit/selected9_errors.csv",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/CH5_Selected9_Flight_Error_Audit/time_error_summary.csv",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/suite_core/continue_cost11_strict_betas_50m.py",
+    "core": false
+  },
+  {
+    "code": "source_missing",
+    "message": "src/suite_core/batch_generate_npy_dataset2.py",
+    "core": true
+  },
+  {
+    "code": "source_missing",
+    "message": "src/suite_core/batch_generate_npy_dataset2_basic.py",
+    "core": true
+  },
+  {
+    "code": "source_missing",
+    "message": "src/suite_core/batch_generate_npy_dataset2_split_basic.py",
+    "core": true
+  },
+  {
+    "code": "source_missing",
+    "message": "src/suite_core/batch_generate_npy_dataset2_split_test.py",
+    "core": true
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 11: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 12: allowlisted_sources_needing_mapping, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 13: allowlisted_sources_needing_mapping, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 14: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 15: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 16: allowlisted_sources_needing_mapping, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 17: allowlisted_sources_needing_mapping, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 18: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 19: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 20: allowlisted_sources_needing_mapping, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 21: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 22: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table 23: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table A1: allowlisted_sources_needing_mapping, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table A2: allowlisted_sources_needing_mapping, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table A3: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table A4: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table A5: allowlisted_sources_needing_mapping, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table A6: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "table_not_fully_bound",
+    "message": "Table A7: incomplete, aggregation script missing",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "11:12:01",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "12:48:35",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "13:09:50",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "13:34:29",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "14:01:26",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "14:28:12",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "14:56:43",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "15:24:03",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "15:49:19",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "16:50:31",
+    "core": false
+  },
+  {
+    "code": "flight_record_missing_or_ambiguous",
+    "message": "17:35:23",
+    "core": false
+  },
+  {
+    "code": "execution_not_validated",
+    "message": "Packaging only. Existing launcher absolute-path/hash requirements and full numerical reproduction have not been rerun.",
+    "core": false
+  }
+]

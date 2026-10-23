@@ -1,0 +1,25 @@
+{
+  "checkpoint_sha256": "eea33db123316cb34f6be101135c1d0101614660bce6b9ae66a0091bc1cdde6d",
+  "checkpoint_step": 40001536,
+  "identity": "92eae66cec8e731df4c39db63636846eec1fa1d9c06f5c2177eb30dda0fd3688",
+  "input_checks_passed": true,
+  "no_training": true,
+  "original_outputs_read_only": true,
+  "scope": "all",
+  "source_eval_audit": [
+    {
+      "n_maps": 180,
+      "native_complete_found": true,
+      "parameter_sha256": "a7c5b84cfc6b9579a91452cf25226a04757124abe6c690f1d372152b042e6356",
+      "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_B6_beta05_EXISTING20M_to40M_CP5M_VAL1M_seed42/validation/B6/step_40001536",
+      "status": "native_receipt_matches_uploaded_Raw"
+    },
+    {
+      "n_maps": 1220,
+      "native_complete_found": true,
+      "parameter_sha256": "a7c5b84cfc6b9579a91452cf25226a04757124abe6c690f1d372152b042e6356",
+      "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/chapter4_COST11_B6_beta05_EXISTING20M_to40M_CP5M_VAL1M_seed42/test/B6/step_40001536",
+      "status": "native_receipt_matches_uploaded_Raw"
+    }
+  ]
+}

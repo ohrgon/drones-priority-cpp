@@ -1,0 +1,102 @@
+{
+  "raw": {
+    "checkpoint": {
+      "num_timesteps": 40001536,
+      "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/main_seeds_8_77/strict_seed77/stages/stage40M/runs/ppo_strict_C3NT_COST11_FULL_H5_b0.5_seed77__continue_to_40000000/last_model.zip",
+      "sha256": "c776757b2e8ffa2cd751f4e2d7d4f4e42127919664c24439039038fee5653d31"
+    },
+    "groups": [
+      {
+        "coverage_pct_all": 100.0,
+        "mission_time_mean_all_prefixes_sec": 1665.362816594908,
+        "mission_time_sec": 1665.362816594908,
+        "n_maps": 1220,
+        "n_success": 1220,
+        "priority_weighted_first_visit_latency_sec": 741.1344339862522,
+        "source": "all",
+        "success_pct": 100.0,
+        "time_mean_n": 1220,
+        "time_mean_population": "own_successful_maps"
+      },
+      {
+        "coverage_pct_all": 100.0,
+        "mission_time_mean_all_prefixes_sec": 1922.5966615550938,
+        "mission_time_sec": 1922.5966615550938,
+        "n_maps": 500,
+        "n_success": 500,
+        "priority_weighted_first_visit_latency_sec": 864.8487890956993,
+        "source": "osm",
+        "success_pct": 100.0,
+        "time_mean_n": 500,
+        "time_mean_population": "own_successful_maps"
+      },
+      {
+        "coverage_pct_all": 100.0,
+        "mission_time_mean_all_prefixes_sec": 1486.7282020392236,
+        "mission_time_sec": 1486.7282020392236,
+        "n_maps": 720,
+        "n_success": 720,
+        "priority_weighted_first_visit_latency_sec": 655.2216873824696,
+        "source": "synthetic",
+        "success_pct": 100.0,
+        "time_mean_n": 720,
+        "time_mean_population": "own_successful_maps"
+      }
+    ],
+    "method": "strict",
+    "note": "Times in the main fields use successful maps only; failed-path Lw stays undefined. Validation and test are separate. Across-seed paired analyses should join map IDs and initial_pair_id, and declare a common-success population when failures differ.",
+    "split": "test",
+    "stage": "raw",
+    "train_seed": 77
+  },
+  "refined": {
+    "checkpoint": {
+      "num_timesteps": 40001536,
+      "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/main_seeds_8_77/strict_seed77/stages/stage40M/runs/ppo_strict_C3NT_COST11_FULL_H5_b0.5_seed77__continue_to_40000000/last_model.zip",
+      "sha256": "c776757b2e8ffa2cd751f4e2d7d4f4e42127919664c24439039038fee5653d31"
+    },
+    "groups": [
+      {
+        "coverage_pct_all": 100.0,
+        "mission_time_mean_all_prefixes_sec": 1665.362816594908,
+        "mission_time_sec": 1665.362816594908,
+        "n_maps": 1220,
+        "n_success": 1220,
+        "priority_weighted_first_visit_latency_sec": 741.1344339862522,
+        "source": "all",
+        "success_pct": 100.0,
+        "time_mean_n": 1220,
+        "time_mean_population": "own_successful_maps"
+      },
+      {
+        "coverage_pct_all": 100.0,
+        "mission_time_mean_all_prefixes_sec": 1922.5966615550938,
+        "mission_time_sec": 1922.5966615550938,
+        "n_maps": 500,
+        "n_success": 500,
+        "priority_weighted_first_visit_latency_sec": 864.8487890956993,
+        "source": "osm",
+        "success_pct": 100.0,
+        "time_mean_n": 500,
+        "time_mean_population": "own_successful_maps"
+      },
+      {
+        "coverage_pct_all": 100.0,
+        "mission_time_mean_all_prefixes_sec": 1486.7282020392236,
+        "mission_time_sec": 1486.7282020392236,
+        "n_maps": 720,
+        "n_success": 720,
+        "priority_weighted_first_visit_latency_sec": 655.2216873824696,
+        "source": "synthetic",
+        "success_pct": 100.0,
+        "time_mean_n": 720,
+        "time_mean_population": "own_successful_maps"
+      }
+    ],
+    "method": "strict",
+    "note": "Times in the main fields use successful maps only; failed-path Lw stays undefined. Validation and test are separate. Across-seed paired analyses should join map IDs and initial_pair_id, and declare a common-success population when failures differ.",
+    "split": "test",
+    "stage": "refined",
+    "train_seed": 77
+  }
+}
