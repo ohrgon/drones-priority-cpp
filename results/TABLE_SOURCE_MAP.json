@@ -438,7 +438,7 @@
     "note": "Flight records, route binding and planned routes were added after the automated packing. Both measured columns (T_exec and path-correspondence RMS) are reproduced by the aggregation script."
   },
   {
-    "table_id": "Table A1",
+    "table_id": "Table S1",
     "source_files": [
       "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
       "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
@@ -477,7 +477,7 @@
     "reaggregation_executed": false
   },
   {
-    "table_id": "Table A2",
+    "table_id": "Table S2",
     "source_files": [
       "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
       "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
@@ -516,7 +516,7 @@
     "reaggregation_executed": false
   },
   {
-    "table_id": "Table A3",
+    "table_id": "Table S3",
     "source_files": [
       "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
       "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
@@ -557,7 +557,7 @@
     "reaggregation_executed": false
   },
   {
-    "table_id": "Table A4",
+    "table_id": "Table S4",
     "source_files": [
       "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
       "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
@@ -598,7 +598,7 @@
     "reaggregation_executed": false
   },
   {
-    "table_id": "Table A5",
+    "table_id": "Table S5",
     "source_files": [
       "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
       "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
@@ -642,7 +642,7 @@
     "reaggregation_executed": false
   },
   {
-    "table_id": "Table A6",
+    "table_id": "Table S6",
     "source_files": [
       "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
       "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
@@ -683,7 +683,7 @@
     "reaggregation_executed": false
   },
   {
-    "table_id": "Table A7",
+    "table_id": "Table S7",
     "source_files": [
       "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
       "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",

@@ -136,37 +136,37 @@
   },
   {
     "code": "table_not_fully_bound",
-    "message": "Table A1: allowlisted_sources_needing_mapping, aggregation script missing",
+    "message": "Table S1: allowlisted_sources_needing_mapping, aggregation script missing",
     "core": false
   },
   {
     "code": "table_not_fully_bound",
-    "message": "Table A2: allowlisted_sources_needing_mapping, aggregation script missing",
+    "message": "Table S2: allowlisted_sources_needing_mapping, aggregation script missing",
     "core": false
   },
   {
     "code": "table_not_fully_bound",
-    "message": "Table A3: incomplete, aggregation script missing",
+    "message": "Table S3: incomplete, aggregation script missing",
     "core": false
   },
   {
     "code": "table_not_fully_bound",
-    "message": "Table A4: incomplete, aggregation script missing",
+    "message": "Table S4: incomplete, aggregation script missing",
     "core": false
   },
   {
     "code": "table_not_fully_bound",
-    "message": "Table A5: allowlisted_sources_needing_mapping, aggregation script missing",
+    "message": "Table S5: allowlisted_sources_needing_mapping, aggregation script missing",
     "core": false
   },
   {
     "code": "table_not_fully_bound",
-    "message": "Table A6: incomplete, aggregation script missing",
+    "message": "Table S6: incomplete, aggregation script missing",
     "core": false
   },
   {
     "code": "table_not_fully_bound",
-    "message": "Table A7: incomplete, aggregation script missing",
+    "message": "Table S7: incomplete, aggregation script missing",
     "core": false
   },
   {

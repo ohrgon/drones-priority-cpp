@@ -23,7 +23,7 @@ minted from each GitHub release; cite the version you used (see `CITATION.cff`).
 | `results/main_seeds_8_77/` | Raw and refined per-map test results (Synthetic 720 + OSM 500) for seeds 8 and 77, Strict and Relaxed, plus training summaries. |
 | `results/mask_controls_seed42/` | No-mask and Boundary-only controls (fresh 40M training, seed 42), raw test results. |
 | `results/refinement_b6_common/` | Connection refinement of Relaxed (B = 6) on the common-success map set, with the per-map audit. |
-| `results/TABLE_SOURCE_MAP.json` | Which files feed each table of the manuscript (Tables 11–23, A1–A7). |
+| `results/TABLE_SOURCE_MAP.json` | Which files feed each table of the manuscript (Tables 11–23 of the article and Tables S1–S7 of the Supplementary Materials). |
 | `src/` | Experiment packages (see below). Seed-42 per-map results that the tables also use are stored as reference inputs inside these packages. |
 | `environment/` | Software and hardware of the original training machine. |
 | `provenance/` | Checkpoint hashes, the list of items that were not available when this bundle was assembled, and the old → new name map. |
