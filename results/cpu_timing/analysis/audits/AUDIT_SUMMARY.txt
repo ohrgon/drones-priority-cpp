@@ -1,0 +1,30 @@
+PROVENANCE AND PUBLICATION COMPARISON AUDIT
+Reference commit: 8e19d8822983245b811b83e88c99fd2be548a044
+Input: <ANALYSIS_WORKSPACE>/timing_full_v3_t1_r3
+
+RESULT
+- 7,320 model-map cases, 21,960 trials, exactly 3 repeats each; no missing or duplicate trials.
+- Raw/Refined action-array hashes and all recorded route metrics are invariant across repeats.
+- Six selected checkpoint SHA-256 values match the pinned publication registry and the actual locally cached checkpoint files; seeds and 40,001,536 steps also match.
+- All 90 per-model native-source hash checks match the original source package manifest and bytes.
+- 84/90 also match public bytes; the remaining six checks refer to the same test8_original.py file, changed only in five workspace-directory strings. initial_condition, evaluate_map, and policy_action are AST-identical; all other loaded source files are byte-identical.
+- All 1,220 selected map IDs and reported array/file hashes match the fixed catalog and pinned portable manifest (720 Synthetic, 500 OSM).
+- Eighteen public reference files were downloaded at the pinned commit and checked against their Git blob SHA identifiers.
+- Raw success and step counts match the publication for all 7,320 cases.
+- Raw modeled duration matches exactly in 7,320 numeric cases. Raw Lw matches exactly in 7,196 successful numeric cases; the remaining 124 failure cases have undefined Lw in both datasets.
+- Refined success-case steps, modeled T, and Lw match exactly for all 7,196 completed cases. Maximum absolute numeric difference is 0.0, not merely below a tolerance.
+- Refined measurements are correctly absent for the 124 failed Raw cases (43/39/42 for Relaxed seeds 8/42/77).
+
+LIMITS
+- Matching publication metrics and step counts do not prove that every action byte is identical to the publication. Comparable full action-array hashes or full trajectories are not present on both sides. Published first-visit-sequence audit hashes have a different scope and cannot be compared to the uploaded action hashes.
+- Across the three repetitions within THIS timing run, full action-array hashes do match for every eligible case.
+- The original server filesystem is not directly available in the submitted folder. The complete map identity check uses reported hashes verified by the benchmark and the pinned public manifest. Four locally cached map files were independently rehashed and match.
+
+FILES
+- audit_report.json: complete structured findings and limitations.
+- publication_comparison_summary.csv: per-model Raw/Refined exact comparison counts.
+- publication_per_case_comparison.csv: all per-map metric differences and identity checks.
+- checkpoint_hash_checks.csv, native_source_hash_checks.csv, map_hash_checks.csv: provenance evidence.
+- test8_original_vs_public.diff: the complete source-layout difference.
+- published_download_manifest.json: pinned URLs, SHA-256 and Git blob hashes of public reference files.
+- audit_provenance.py and fetch_published_refs.py: reproducible read-only audit scripts.

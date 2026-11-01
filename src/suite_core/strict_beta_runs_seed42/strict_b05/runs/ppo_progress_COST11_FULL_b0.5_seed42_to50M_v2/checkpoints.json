@@ -1,0 +1,195 @@
+[
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/source_model/last_model.zip",
+    "num_timesteps": 20004864,
+    "sha256": "09fcb0efd73c49d7b5728dce3fcd3e4fe137b9940417de3fbf22b83fac1de5b0",
+    "source_baseline": true,
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_21004288.zip",
+    "num_timesteps": 21004288,
+    "sha256": "f04ca795dc8960d799fd2768139a91bf5427e4134403cbdce70309f830e8b871",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_22003712.zip",
+    "num_timesteps": 22003712,
+    "sha256": "0643e88645a731fe13baf79640f72cc9dfa2938f8f81e8efe7c612b8ed958bb5",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_23003136.zip",
+    "num_timesteps": 23003136,
+    "sha256": "ec3c2d57114db988e2720a6fb32e4e7644e5bfd974f1402920174990d53333a7",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_24002560.zip",
+    "num_timesteps": 24002560,
+    "sha256": "f0c213d3b30bfab1b92a7d27ef2f5ce72e63b602e7b5d9a60cb7bc0a9be765a7",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_25001984.zip",
+    "num_timesteps": 25001984,
+    "sha256": "805e9416f821d8d82a77b9c1fc99ac8e74363ecd73b48b36435d24f8e9ca339f",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_26001408.zip",
+    "num_timesteps": 26001408,
+    "sha256": "a734ccbefc04293e0d495169ff3ea86cba3a1b4606c6552aab987ecaa2c42086",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_27000832.zip",
+    "num_timesteps": 27000832,
+    "sha256": "d68ce7b72f967097a07993ea56e6f0b22b46288a1beffa7ba04c55cab2712e89",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_28000256.zip",
+    "num_timesteps": 28000256,
+    "sha256": "2dbe90685a47d3c08479ef51215e47f831f2dd75dc572256b73b1f2acfa7a05f",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_29007872.zip",
+    "num_timesteps": 29007872,
+    "sha256": "7907a9e0a77c74a0a31ae226ebb3b6254772d45cd48120c78ff8f4631dda76ba",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_30007296.zip",
+    "num_timesteps": 30007296,
+    "sha256": "2b4a88102b1f28bff93a1997b664699c78472d9b5eb33a3c9e673d95caf62593",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_31006720.zip",
+    "num_timesteps": 31006720,
+    "sha256": "47d4cc074b2f0d21515a6ce063f981708dd2a933f6d2a36d558af33c7cae1ffa",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_32006144.zip",
+    "num_timesteps": 32006144,
+    "sha256": "d02fd81e8dc4a3e43dd6765bfc3e9a7288018342b38f38fbba254b29e283e5d0",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_33005568.zip",
+    "num_timesteps": 33005568,
+    "sha256": "033a05109a61cea499cb846977648c32b21174e906e31f1b4e9f7ed7352d4703",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_34004992.zip",
+    "num_timesteps": 34004992,
+    "sha256": "9d4042edd119f15cf82a71ca67d61757d32ca4808168552a319065329a4c01af",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_35004416.zip",
+    "num_timesteps": 35004416,
+    "sha256": "50209ea634db149ee437fa038fdc34dc9c94d9a0b11a2bf6ec02be9976f39274",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_36003840.zip",
+    "num_timesteps": 36003840,
+    "sha256": "ebf8b9218df9319da4d50c4a2b773e94f64ceed74047d5ca789fe02d12afb0d5",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_37003264.zip",
+    "num_timesteps": 37003264,
+    "sha256": "4b9230ee2d994ee1a47cb64c681b7990558fd8d19a82c3107cf2ceb16efd324e",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_38002688.zip",
+    "num_timesteps": 38002688,
+    "sha256": "fe8245355a0f75a5e3c36d2f56f8ae5f93c13f79eebf4ceed7d7a41a06cadac5",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_39002112.zip",
+    "num_timesteps": 39002112,
+    "sha256": "1f912286b4cbce8728be24534b1dbcc3cfc112c15bf279707a75a69a49e2b387",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_40001536.zip",
+    "num_timesteps": 40001536,
+    "sha256": "d4e1e43687dd2bb266116a31a1542ba7ce014dab454ed40d3b24388e58f1f32a",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_41000960.zip",
+    "num_timesteps": 41000960,
+    "sha256": "09e83167de1f7f6abeb0c5740da1aff6706e2ec6be32cb6bdf9b5ea329b07aff",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_42000384.zip",
+    "num_timesteps": 42000384,
+    "sha256": "2a628a2e93ecf67a160ed8526cc381524457478f5e7b4215fde40d966dd7dd5e",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_43008000.zip",
+    "num_timesteps": 43008000,
+    "sha256": "8c0eca595ade1d63881cde9ca99d57a50f749829fb6d1453459999b89aa8eb7b",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_44007424.zip",
+    "num_timesteps": 44007424,
+    "sha256": "694fd1335285f951284fd51d35f64449fc4ee0917437331e9bc5f842ade23f51",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_45006848.zip",
+    "num_timesteps": 45006848,
+    "sha256": "c2a64ea105824381652e931b47cd6686cf982243575d9cfb99b3914e84be324a",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_46006272.zip",
+    "num_timesteps": 46006272,
+    "sha256": "8738f079623f112ddcc6ea3038c19e2f85695a0523df2128e4ed16d8fa0f880a",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_47005696.zip",
+    "num_timesteps": 47005696,
+    "sha256": "f42a20f4e48050a5b8b26be50c89d97028a1c255cb1b12498dbae2ba00598c26",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_48005120.zip",
+    "num_timesteps": 48005120,
+    "sha256": "3b543d7125be1259493b96ba7218b5e252e96bab4f9c567be26c27a2925216fc",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_49004544.zip",
+    "num_timesteps": 49004544,
+    "sha256": "dcbe7a6a982039f01306108bbd2c8bc54b7fd66b79382627dbe6924d59dadb5a",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/checkpoints/step_50003968.zip",
+    "num_timesteps": 50003968,
+    "sha256": "73e6c24658b95842269d6958bd1d823f3524cb18747895f09b2941ca9e34f84b",
+    "final": false
+  },
+  {
+    "path": "<ORIGINAL_WORKSPACE>/uav_chapter4_suite_v2/strict_beta_runs_seed42/strict_b05/runs/ppo_progress_COST11_FULL_b0.5_seed42_to50M_v2/last_model.zip",
+    "num_timesteps": 50003968,
+    "sha256": "7c7fe3f42fdcc74e59f2d7db6119f67e0f179525d4c2c01831e8b33abb483986",
+    "final": true
+  }
+]

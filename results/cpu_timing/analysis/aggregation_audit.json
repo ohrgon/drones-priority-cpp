@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "issues": [],
+  "run_identity": "6398ab41490c8cda16401c05443ab3c1da1541bc18f3f1bc0fd1a12f9cbf8d7f",
+  "expected_trials": 21960,
+  "observed_trials": 21960,
+  "unique_trial_keys": 21960,
+  "model_map_pairs": 7320,
+  "distinct_maps": 1220,
+  "repeats": 3,
+  "source_file_sha256": {
+    "run_config.json": "1c4c36599711973f10cac792977e379c720a116ca8d4dcb032a7bf60a92b5de2",
+    "status.json": "5c3773e2e322e516d6b7a357f6d9c04b5d3920c3b106460684e11520fbaaa3fa",
+    "hardware.json": "abccff6eb93fc50c1edbf8b1f496e7ba7dea6505be26cd729e322bd5a2eb5f84",
+    "per_trial.csv": "b032305648476820974dd928c337e90d97336e5184e7c0fd4e78d8c7ea5f26fb",
+    "trials/strict_seed8.jsonl": "92e8347d7de8b8dd037570b27a33fb0823eead20d363aae5e6e44060954226c9",
+    "trials/relaxed_seed8.jsonl": "06015ac212aabe1f3154ef046ed3ec1f615df275b74f87431afb230a3209b948",
+    "trials/strict_seed42.jsonl": "89dbdd4fcb0e44fba6e039baa71257d056e937622bd67c230ba6d2effb43812f",
+    "trials/relaxed_seed42.jsonl": "198e4302f6927546a2e51a49f61f3c7a7ac7aa6d8c7a7c252b2c336266bd4cc5",
+    "trials/strict_seed77.jsonl": "fdd3949a55ba23019f1c2a166d09f151161ee4718e000e93f80ae53220657b1a",
+    "trials/relaxed_seed77.jsonl": "867883363fe8815c75e23b845206ef6f5db67459cee2890fb8424c7dbbc7f1e4"
+  }
+}

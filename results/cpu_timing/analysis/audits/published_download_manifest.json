@@ -1,0 +1,164 @@
+[
+  {
+    "path": "results/TABLE_SOURCE_MAP.json",
+    "bytes": 43365,
+    "git_blob": "3502db9f3be6359f4f2e8dd0ff0b84fe881c83d4",
+    "sha256": "b87b3c0803fe6ef295ead4dd80cc56d85fa402d0c47c6d03b8efc45b3a390d97",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/TABLE_SOURCE_MAP.json",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/relaxed_seed77/evaluation/test/raw_per_map.csv",
+    "bytes": 2508942,
+    "git_blob": "41b74d541dd62812918ca67039d923b9e3242039",
+    "sha256": "992308b9f95ccc024ac49300f916795c924f8999595c2b7cd99887ca6c687e60",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/relaxed_seed77/evaluation/test/raw_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/relaxed_seed77/evaluation/test/refined_per_map.csv",
+    "bytes": 2592809,
+    "git_blob": "d61891b00f3bd9d6a992d4084e066ab3070d3eec",
+    "sha256": "10208f5bf5dde2e97418750fa2cd91a408bbd3a52cc3d1c6511df40060431715",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/relaxed_seed77/evaluation/test/refined_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/relaxed_seed77/evaluation/test/refinement_audit_per_map.csv",
+    "bytes": 865787,
+    "git_blob": "ec58fb3f6196a3d80dc495803c08b836714ab0e2",
+    "sha256": "d36d14cc765929ecdbdb21a638d45e291fd65e1a669b61eb533c69e253ab2fd2",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/relaxed_seed77/evaluation/test/refinement_audit_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/relaxed_seed8/evaluation/test/raw_per_map.csv",
+    "bytes": 2510590,
+    "git_blob": "ec05195011a2fe4e1fce1ad02a57e1e448aaf5fd",
+    "sha256": "65baab9e177504583cf5728938f25e89cc248afbd806ceac84aa6a10d60b6113",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/relaxed_seed8/evaluation/test/raw_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/relaxed_seed8/evaluation/test/refined_per_map.csv",
+    "bytes": 2594842,
+    "git_blob": "0cb113be27dedca9635c2c75eb1b9cc19b716ae8",
+    "sha256": "df16c3b1b38d7b806e1da83cf2a392b9c9c23ef21e284e13523034813cbfc778",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/relaxed_seed8/evaluation/test/refined_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/relaxed_seed8/evaluation/test/refinement_audit_per_map.csv",
+    "bytes": 863610,
+    "git_blob": "978d8058afc9f9233c58688d1e95b06ba93ba2cd",
+    "sha256": "c0100a282274448a364f22d8581e04c0edff90e0161f53803e9ed72cab5ac957",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/relaxed_seed8/evaluation/test/refinement_audit_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/strict_seed77/evaluation/test/raw_per_map.csv",
+    "bytes": 2404879,
+    "git_blob": "cd63044efcb7d2a3a13b67f5c74beb175443e01f",
+    "sha256": "13c7affede7fe677786ca4fa854f9efe7dfc6c7eeb18da600f94074722e211cb",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/strict_seed77/evaluation/test/raw_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/strict_seed77/evaluation/test/refined_per_map.csv",
+    "bytes": 2469831,
+    "git_blob": "a76cdb48ce1ce1011e90b654fb83fde97590a972",
+    "sha256": "1b6c4b6404d469b932b9ec5f642c745239eb226e3163a8449a8ca0410d87a5d5",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/strict_seed77/evaluation/test/refined_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/strict_seed77/evaluation/test/refinement_audit_per_map.csv",
+    "bytes": 862601,
+    "git_blob": "648f08b633bc3a94845dce01dd21e321a722ffa9",
+    "sha256": "e196c541b2ad547a0985de6b27e50c9864dc1e9a11d67135d10a01b32046dd02",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/strict_seed77/evaluation/test/refinement_audit_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
+    "bytes": 2400229,
+    "git_blob": "98e37d0b4923871325de7a3da9418ec5229365b9",
+    "sha256": "3e450033c1379b1da16f847abf189d4545ba34e42f6a57358028b6644aa47060",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
+    "bytes": 2464949,
+    "git_blob": "6cbb65497fa3952ed4e985e39891eb398e9791fd",
+    "sha256": "296c072b521a629538f20251d24ba646ea1c088cf33725559ba0f90cbdc90914",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/main_seeds_8_77/strict_seed8/evaluation/test/refinement_audit_per_map.csv",
+    "bytes": 860189,
+    "git_blob": "35956e997736b291072fc8b36da31df5ffdbe576",
+    "sha256": "8201694da1b3ba5bdb804e15e4b4b2f8adeb28aa002151eb6d86d35ef9c4fd15",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/main_seeds_8_77/strict_seed8/evaluation/test/refinement_audit_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/refinement_b6_common/methods/B6/audit_per_map.csv",
+    "bytes": 1219180,
+    "git_blob": "289df48c600f6b64c4739aae5fafe90a4d8f7aae",
+    "sha256": "2dbcec8de620a58a944be04e984b8283cf9773c48461a07d71415db404c32df7",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/refinement_b6_common/methods/B6/audit_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "results/refinement_b6_common/report/all_B6_raw_refined_per_map.csv",
+    "bytes": 5520877,
+    "git_blob": "b849df714d4d081e3f6aa997d677673a537cc8c0",
+    "sha256": "9f9db43f1812cba96aafcb86ee059859b9b0f498f0ce97b1d03260d4a293f519",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/results/refinement_b6_common/report/all_B6_raw_refined_per_map.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "src/budget_b1_b2_b4_40m/reference_test_baselines.csv",
+    "bytes": 1780324,
+    "git_blob": "b2648f1171f0624f917d8d5f984c640225feee47",
+    "sha256": "74d0187d876facb621bbf7be0d26be638a4b34505a6b54418961cef12c7a51da",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/src/budget_b1_b2_b4_40m/reference_test_baselines.csv",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "src/refinement_relaxed_b6_40m/reference/previous_B0124_classical_Raw_Refined.csv.gz",
+    "bytes": 10560659,
+    "git_blob": "6392a4342ac38ee5839c4aa6f8024c781aad4601",
+    "sha256": "d03dfd14b40b602979e0900e1ad896258398d99f115f8c7ad97cfaf5d94e6b70",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/src/refinement_relaxed_b6_40m/reference/previous_B0124_classical_Raw_Refined.csv.gz",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  },
+  {
+    "path": "src/refinement_relaxed_b6_40m/reference/uploaded_B6_final40M_raw.csv.gz",
+    "bytes": 821009,
+    "git_blob": "d06b4f01f46b05d5bb65edd10787f7b762a7eca7",
+    "sha256": "15c928e0e4c351765c0c89bd3846840cc4b31301fbd4c8212000e1e478c3c271",
+    "url": "https://raw.githubusercontent.com/ohrgon/drones-priority-cpp/8e19d8822983245b811b83e88c99fd2be548a044/src/refinement_relaxed_b6_40m/reference/uploaded_B6_final40M_raw.csv.gz",
+    "cached_commit": "8e19d8822983245b811b83e88c99fd2be548a044",
+    "verified_against_pinned_tree": true
+  }
+]

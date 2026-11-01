@@ -1,13 +1,17 @@
 {
   "self_excluded": true,
   "files": {
+    ".gitattributes": {
+      "size_bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
     ".gitignore": {
       "size_bytes": 184,
       "sha256": "6f2accfafdacc9718c8effd02312ed58b12d75a9b38626558dd0a7f0d755e351"
     },
     "CITATION.cff": {
       "size_bytes": 1537,
-      "sha256": "5f9802e41c75b6e980545416be4fd44cd23cce6abb6091d7eecd7245d9716b8a"
+      "sha256": "37da3aeb15162b7079ed123759cc7c74dccda86e20e2fc817aa3ff4c49a71d34"
     },
     "LICENSE": {
       "size_bytes": 1372,
@@ -18,8 +22,8 @@
       "sha256": "3f822732bf22a4813accc64b5f3dd5b1a44cb288154af4fde2107b15c45a0d97"
     },
     "README.md": {
-      "size_bytes": 8001,
-      "sha256": "b9c8640b20617aa54a1ef1729b2dfbf55c47ddc19137ee5016960cd1946c4748"
+      "size_bytes": 8968,
+      "sha256": "290f03a74fca4b2459fdc4c57375a4c81265386cd3f471abdaf17fd9b1f66eb8"
     },
     "data/flight_logs/README.md": {
       "size_bytes": 5449,
@@ -5150,8 +5154,196 @@
       "sha256": "fb37d141e2171de96d0c970ce916e0515d5492d32d2d633b28a0843662c5d2f4"
     },
     "results/TABLE_SOURCE_MAP.json": {
-      "size_bytes": 43365,
-      "sha256": "b87b3c0803fe6ef295ead4dd80cc56d85fa402d0c47c6d03b8efc45b3a390d97"
+      "size_bytes": 46328,
+      "sha256": "59648ae11293b5033c53213ffd265e5ce2c90d6c36f1464c8c369ab175d01497"
+    },
+    "results/cpu_timing/README.md": {
+      "size_bytes": 9331,
+      "sha256": "f34ebe49aca268fb4ef6f435c9712b5bd573e8a3252ec491e74288a567b4e13f"
+    },
+    "results/cpu_timing/analysis/Table24_CPU_planning_times.csv": {
+      "size_bytes": 960,
+      "sha256": "186d73b6901375533f2b86801b101506aa8d9fbae045b64da2522f3a4239d6a8"
+    },
+    "results/cpu_timing/analysis/TableS8_seedwise_CPU_planning_times.csv": {
+      "size_bytes": 2297,
+      "sha256": "1ef1505156961f9f7db89daacab4ce73501997981b051ab8c5d94033219a2af4"
+    },
+    "results/cpu_timing/analysis/aggregation_audit.json": {
+      "size_bytes": 1276,
+      "sha256": "c5fe6e808e447fd09f670260cbf7fa5b77c3a72fdf37e8d216e2e337eaaa6f97"
+    },
+    "results/cpu_timing/analysis/analysis_results.json": {
+      "size_bytes": 25486,
+      "sha256": "70cc71cee193386b8730e093bb92c7415a2f1c55e1ce91f364844da9b29f6da2"
+    },
+    "results/cpu_timing/analysis/audits/AUDIT_SUMMARY.txt": {
+      "size_bytes": 3017,
+      "sha256": "0b2232f7f72df3abd61485e8d438d9f5ba06394aec1dad1cd302f1f44ad0b3a9"
+    },
+    "results/cpu_timing/analysis/audits/audit_report.json": {
+      "size_bytes": 19041,
+      "sha256": "15a99df667ff10839375c686b8bd7753ed4c8878c76fbaa74449cd9697c7ffee"
+    },
+    "results/cpu_timing/analysis/audits/checkpoint_hash_checks.csv": {
+      "size_bytes": 2315,
+      "sha256": "808374c01302d02db96a63004c0a1507ed61768dc0f98cec439694dd2a47d5cf"
+    },
+    "results/cpu_timing/analysis/audits/map_hash_checks.csv": {
+      "size_bytes": 121343,
+      "sha256": "1423d104e60ac75fc092155f093ed04a36ce0f66a9be86d34ecc617110e45e97"
+    },
+    "results/cpu_timing/analysis/audits/native_source_hash_checks.csv": {
+      "size_bytes": 35616,
+      "sha256": "f0a6e35aaca50e4d8797df369cfde25ba409beb73c388786934d6cc678dca708"
+    },
+    "results/cpu_timing/analysis/audits/publication_comparison_summary.csv": {
+      "size_bytes": 2341,
+      "sha256": "8e2f6dc898ee0aa8258df348d60c425091931d9f54afa05fce858a26b539b525"
+    },
+    "results/cpu_timing/analysis/audits/publication_per_case_comparison.csv": {
+      "size_bytes": 2580834,
+      "sha256": "f8bdaced8d35f366e266bd50dab374b35cbfa3252e2d619701d43413c3dddda2"
+    },
+    "results/cpu_timing/analysis/audits/published_download_manifest.json": {
+      "size_bytes": 9921,
+      "sha256": "9e1a50c4f46989e4b1823bb6d7325ec6880ba70a2d499e1c85d13be61581f9f5"
+    },
+    "results/cpu_timing/analysis/audits/runtime_audit.json": {
+      "size_bytes": 9370,
+      "sha256": "5956f15b100d3107916f201aadfade53e31745209c0dfac83c0cb6b7aa96d887"
+    },
+    "results/cpu_timing/analysis/audits/runtime_audit.txt": {
+      "size_bytes": 1666,
+      "sha256": "c7851ab2a148d0a701789560f42ef3f7f43506514e752ca53ee016bc619e18b1"
+    },
+    "results/cpu_timing/analysis/audits/test8_original_vs_public.diff": {
+      "size_bytes": 2736,
+      "sha256": "8690aec487d742502ef66f34aa536f81a6ec0c46f6b2622c17dc16923fb92576"
+    },
+    "results/cpu_timing/analysis/common_success_CPU_planning_times.csv": {
+      "size_bytes": 1113,
+      "sha256": "deecec90d94afafbd3c0abd1ce7b9a7269a069e09277dbe4fb7c53dc0f9aa673"
+    },
+    "results/cpu_timing/analysis/failed_attempt_statistics.csv": {
+      "size_bytes": 1076,
+      "sha256": "f8f3f75a41e6a9c4e91a644a5f54b383776912e66a79466ac58dbc4f2a0643c2"
+    },
+    "results/cpu_timing/analysis/failed_pairs.csv": {
+      "size_bytes": 79868,
+      "sha256": "c63b2ad1c8b9e0d62c1ef22372318f0d203adc27a612ae192b536303ff11a1f9"
+    },
+    "results/cpu_timing/analysis/longest_50_plans.csv": {
+      "size_bytes": 45253,
+      "sha256": "99660f563811317f04ddc7c5c9e7940888564d72fbd143708fb7e61d5cb83b9f"
+    },
+    "results/cpu_timing/analysis/model_summary_all_maps.csv": {
+      "size_bytes": 1319,
+      "sha256": "7020be0536ed1af6ba7e49d1ed68e1587943a9f16eda9e402ab6793b35897565"
+    },
+    "results/cpu_timing/analysis/per_pair_analysis.csv": {
+      "size_bytes": 6330088,
+      "sha256": "9a6b5a3ea6577cf895508aeaaee8baceb03172ebd6e8475989153a6adee4dbae"
+    },
+    "results/cpu_timing/analysis/planning_to_matched_mission_time.csv": {
+      "size_bytes": 1194,
+      "sha256": "53aca4cec65704050f782074677ffb3eb2a7e754b2789dfc2cc6f08166ae8019"
+    },
+    "results/cpu_timing/analysis/stage_time_shares.csv": {
+      "size_bytes": 891,
+      "sha256": "190da0cfa54a44273518194d66c50eb8f4008817d11dcfed19084da08868023b"
+    },
+    "results/cpu_timing/analysis/timing_by_tier.csv": {
+      "size_bytes": 2876,
+      "sha256": "d76c1faf7687b2313a21104b3c08a7f624c3ebe88f80bf242aa3f733357d23d3"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/SUMMARY.txt": {
+      "size_bytes": 1158,
+      "sha256": "f3e942b04129df0c91233c7edd15834e45c1754086f5272d1f8472dd46d6c07f"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/hardware.json": {
+      "size_bytes": 6648,
+      "sha256": "abccff6eb93fc50c1edbf8b1f496e7ba7dea6505be26cd729e322bd5a2eb5f84"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/models/relaxed_seed42_metadata.json": {
+      "size_bytes": 5625,
+      "sha256": "c94e1cdc749c0c7f6703e4a513affcc201493d2e87bb92542c15e2093f6af934"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/models/relaxed_seed77_metadata.json": {
+      "size_bytes": 5598,
+      "sha256": "0b241a347feb3010cf84aafac89dee4dc0c260b52d23fc1a0833b6b1ae4b800a"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/models/relaxed_seed8_metadata.json": {
+      "size_bytes": 5593,
+      "sha256": "d596fea86be4d9b67b0262fb42172cfd7cc297480d9888ad78d98c38b44d95bb"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/models/strict_seed42_metadata.json": {
+      "size_bytes": 5464,
+      "sha256": "fce4b3c8f0d779193ae8d11bd64277c867ce6ca48b0bceb55a7bd75cb2b64e24"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/models/strict_seed77_metadata.json": {
+      "size_bytes": 5478,
+      "sha256": "4f07c26e4fc9c9ab5fb25281e7f68973eca219892e805e3544b9f3553707b2be"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/models/strict_seed8_metadata.json": {
+      "size_bytes": 5473,
+      "sha256": "df893160a633d34f6a9034b45a1924c9ad6a0189642669ab5f15f639be445fcb"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/paper_table.csv": {
+      "size_bytes": 10741,
+      "sha256": "4daded3123a6d8e2449ca518e32802f085a67e84d64c117ccf24a6c3fb1c0fec"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/per_map.csv": {
+      "size_bytes": 3212521,
+      "sha256": "9f6795a20694346e32bd73c1d6842f872801c107b9b846210dc73c40f9f5c76a"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/per_trial.csv": {
+      "size_bytes": 17736559,
+      "sha256": "b032305648476820974dd928c337e90d97336e5184e7c0fd4e78d8c7ea5f26fb"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/run_config.json": {
+      "size_bytes": 622920,
+      "sha256": "1c4c36599711973f10cac792977e379c720a116ca8d4dcb032a7bf60a92b5de2"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/selected_maps.csv": {
+      "size_bytes": 417261,
+      "sha256": "a0e9d9b0c517a710a9349ac5565a36364f33417adc5095fefadaf12c86993492"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/status.json": {
+      "size_bytes": 533,
+      "sha256": "5c3773e2e322e516d6b7a357f6d9c04b5d3920c3b106460684e11520fbaaa3fa"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/summary.csv": {
+      "size_bytes": 29313,
+      "sha256": "4b5f4d9b65e3ca0c63e09b1af66254ef511a0d4a5ab780985e219c6796f6807a"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed42.jsonl": {
+      "size_bytes": 5451262,
+      "sha256": "198e4302f6927546a2e51a49f61f3c7a7ac7aa6d8c7a7c252b2c336266bd4cc5"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed77.jsonl": {
+      "size_bytes": 5450442,
+      "sha256": "867883363fe8815c75e23b845206ef6f5db67459cee2890fb8424c7dbbc7f1e4"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed8.jsonl": {
+      "size_bytes": 5443284,
+      "sha256": "06015ac212aabe1f3154ef046ed3ec1f615df275b74f87431afb230a3209b948"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed42.jsonl": {
+      "size_bytes": 5454781,
+      "sha256": "89dbdd4fcb0e44fba6e039baa71257d056e937622bd67c230ba6d2effb43812f"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed77.jsonl": {
+      "size_bytes": 5454875,
+      "sha256": "fdd3949a55ba23019f1c2a166d09f151161ee4718e000e93f80ae53220657b1a"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed8.jsonl": {
+      "size_bytes": 5447328,
+      "sha256": "92e8347d7de8b8dd037570b27a33fb0823eead20d363aae5e6e44060954226c9"
+    },
+    "results/cpu_timing/raw/timing_full_v3_t1_r3/worker_events.json": {
+      "size_bytes": 1468,
+      "sha256": "6441df3fdfaecfe6aa06ea29ce9c48c832903c9dfab12553032260679440c14e"
     },
     "results/main_seeds_8_77/relaxed_seed77/evaluation/test/complete.json": {
       "size_bytes": 1110,
@@ -5297,6 +5489,10 @@
       "size_bytes": 3669,
       "sha256": "16e707bd07761a2bd830eac9ae72e0215d700a06c95d60f5710c757103e75ed9"
     },
+    "scripts/table24_reproduce.py": {
+      "size_bytes": 16620,
+      "sha256": "ea67550dd65dcc069d7693d0d8c9cd3488ee202b2ce24a4d68fdd827ebd4ea44"
+    },
     "scripts/verify_bundle.py": {
       "size_bytes": 2438,
       "sha256": "566a660db100027876a966fcfa6ecea36eef95b7a2577eaa53d57420eff9e23a"
@@ -5344,6 +5540,54 @@
     "src/budget_b1_b2_b4_40m/run_cost11_B124_beta05_40M.py": {
       "size_bytes": 8004,
       "sha256": "da214939391cb8696c05f3330e8710874668a6a3b9ad44e821278f43a041eaf1"
+    },
+    "src/cpu_timing/PACKAGE_SHA256.json": {
+      "size_bytes": 1060,
+      "sha256": "398a638f02dec108846ead86b0a517a37eae16fe5e3f292c792bf57c4b73923e"
+    },
+    "src/cpu_timing/README_KO.md": {
+      "size_bytes": 11998,
+      "sha256": "5faa7782c99cf26acbf1bb63fb320b1c080ac78adc4daf0e1835a28f27f0a398"
+    },
+    "src/cpu_timing/VALIDATION.txt": {
+      "size_bytes": 4393,
+      "sha256": "0db81d787b79196a62be9ca9b88f7aaa2d814cb42a966df63692216857bbf0a3"
+    },
+    "src/cpu_timing/benchmark_cpu.py": {
+      "size_bytes": 41165,
+      "sha256": "a0ca5d23f7396d85b6dd2a8ae5d5276386b884f9311ab9c40cc8132682a084ee"
+    },
+    "src/cpu_timing/cpu_bench_inputs.py": {
+      "size_bytes": 11773,
+      "sha256": "2dc1471958db7ad39bc60713e060b5bf56c258c141846fd2f4c3490673f1725e"
+    },
+    "src/cpu_timing/cpu_bench_native.py": {
+      "size_bytes": 16839,
+      "sha256": "079c181678f16d7e0cb58140b084253229bbcb84f89d6a7d475778150e308971"
+    },
+    "src/cpu_timing/cpu_bench_parallel.py": {
+      "size_bytes": 9380,
+      "sha256": "73be5c86efaef960d2bd262e0ae51c56e740fab6610c753322cb3a5a015799c3"
+    },
+    "src/cpu_timing/diagnose_cpu_inputs.py": {
+      "size_bytes": 13279,
+      "sha256": "5540eca64e39a8666b8a97a9a9fcbccc77266ba1928206c79116151f6a7e99fd"
+    },
+    "src/cpu_timing/reference_test_maps.json": {
+      "size_bytes": 520682,
+      "sha256": "44f34ff149559fd03dd9543d5befc6e38c116d8a6b141bdece706c62fe5dcd12"
+    },
+    "src/cpu_timing/tests/test_benchmark_wrapper.py": {
+      "size_bytes": 14596,
+      "sha256": "853cad59eec5cd77fca0361462b91ca31395c79cc2947b389254743ad8ab6f98"
+    },
+    "src/cpu_timing/tests/test_parallel_cpu_groups.py": {
+      "size_bytes": 5629,
+      "sha256": "d453eca57619193e305aa70b59d5a36d12cb5f20a69225566a7f567637fbd9b6"
+    },
+    "src/cpu_timing/tests/test_parallel_scheduler.py": {
+      "size_bytes": 8238,
+      "sha256": "0aa365d42ec377dbc4e6a1c4fc68999a771e52ead3a5bfbfed4956b66d1d318a"
     },
     "src/kappa_sweep_5m/PACKAGE_SHA256.json": {
       "size_bytes": 4188,

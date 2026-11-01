@@ -1,0 +1,348 @@
+{
+  "cpu_models": [
+    "Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz"
+  ],
+  "logical_cpu_count": 48,
+  "available_cpu_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "topology": {
+    "0": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 0,
+      "numa_node": 0
+    },
+    "1": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 1,
+      "numa_node": 0
+    },
+    "2": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 2,
+      "numa_node": 0
+    },
+    "3": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 3,
+      "numa_node": 0
+    },
+    "4": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 4,
+      "numa_node": 0
+    },
+    "5": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 5,
+      "numa_node": 0
+    },
+    "6": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 8,
+      "numa_node": 0
+    },
+    "7": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 9,
+      "numa_node": 0
+    },
+    "8": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 10,
+      "numa_node": 0
+    },
+    "9": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 11,
+      "numa_node": 0
+    },
+    "10": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 12,
+      "numa_node": 0
+    },
+    "11": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 13,
+      "numa_node": 0
+    },
+    "12": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 0,
+      "numa_node": 1
+    },
+    "13": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 1,
+      "numa_node": 1
+    },
+    "14": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 2,
+      "numa_node": 1
+    },
+    "15": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 3,
+      "numa_node": 1
+    },
+    "16": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 4,
+      "numa_node": 1
+    },
+    "17": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 5,
+      "numa_node": 1
+    },
+    "18": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 8,
+      "numa_node": 1
+    },
+    "19": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 9,
+      "numa_node": 1
+    },
+    "20": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 10,
+      "numa_node": 1
+    },
+    "21": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 11,
+      "numa_node": 1
+    },
+    "22": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 12,
+      "numa_node": 1
+    },
+    "23": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 13,
+      "numa_node": 1
+    },
+    "24": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 0,
+      "numa_node": 0
+    },
+    "25": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 1,
+      "numa_node": 0
+    },
+    "26": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 2,
+      "numa_node": 0
+    },
+    "27": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 3,
+      "numa_node": 0
+    },
+    "28": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 4,
+      "numa_node": 0
+    },
+    "29": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 5,
+      "numa_node": 0
+    },
+    "30": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 8,
+      "numa_node": 0
+    },
+    "31": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 9,
+      "numa_node": 0
+    },
+    "32": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 10,
+      "numa_node": 0
+    },
+    "33": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 11,
+      "numa_node": 0
+    },
+    "34": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 12,
+      "numa_node": 0
+    },
+    "35": {
+      "topology_verified": true,
+      "physical_package_id": 0,
+      "core_id": 13,
+      "numa_node": 0
+    },
+    "36": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 0,
+      "numa_node": 1
+    },
+    "37": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 1,
+      "numa_node": 1
+    },
+    "38": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 2,
+      "numa_node": 1
+    },
+    "39": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 3,
+      "numa_node": 1
+    },
+    "40": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 4,
+      "numa_node": 1
+    },
+    "41": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 5,
+      "numa_node": 1
+    },
+    "42": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 8,
+      "numa_node": 1
+    },
+    "43": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 9,
+      "numa_node": 1
+    },
+    "44": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 10,
+      "numa_node": 1
+    },
+    "45": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 11,
+      "numa_node": 1
+    },
+    "46": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 12,
+      "numa_node": 1
+    },
+    "47": {
+      "topology_verified": true,
+      "physical_package_id": 1,
+      "core_id": 13,
+      "numa_node": 1
+    }
+  },
+  "platform": "linux",
+  "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:45:41) [GCC 13.3.0]"
+}

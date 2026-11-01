@@ -1,0 +1,368 @@
+{
+  "outcome": "PASS",
+  "issues": [],
+  "n_issues": 0,
+  "checks": {
+    "six_models": 1,
+    "configuration_identity": 1,
+    "configuration_settings": 1,
+    "registered_map_set": 1,
+    "registered_map_metadata": 7320,
+    "unique_map_array_hashes": 1,
+    "selected_maps_csv_unique_keys": 1,
+    "selected_maps_csv_key_membership": 1,
+    "selected_maps_csv_columns": 1220,
+    "selected_maps_csv_values": 9760,
+    "benchmark_code_hash": 5,
+    "fixed_test_catalog_hash": 1,
+    "registered_original_input_manifest_hash": 1,
+    "jsonl_complete_final_line": 6,
+    "jsonl_model_membership": 6,
+    "jsonl_model_count": 6,
+    "trial_exact_membership": 1,
+    "jsonl_csv_count_order": 1,
+    "jsonl_csv_exact_serialization": 21960,
+    "trial_identity": 21960,
+    "trial_cpu_slot": 21960,
+    "trial_map_metadata": 21960,
+    "trial_seed_method": 21960,
+    "finite_nonnegative_timings": 21960,
+    "policy_within_raw": 21960,
+    "success_time_identity": 21588,
+    "success_refinement_status": 21588,
+    "refinement_recorded_nonincrease": 21588,
+    "trial_clock_order": 21960,
+    "failure_null_handling": 372,
+    "shared_map_initial_conditions": 1,
+    "three_repeats_per_pair": 7320,
+    "repeat_trajectory_signature": 7320,
+    "per_map_csv_unique_keys": 1,
+    "per_map_csv_key_membership": 1,
+    "per_map_csv_columns": 7320,
+    "per_map_csv_values": 197640,
+    "summary_csv_unique_keys": 1,
+    "summary_csv_key_membership": 1,
+    "summary_csv_columns": 192,
+    "summary_csv_values": 2304,
+    "paper_table_csv_unique_keys": 1,
+    "paper_table_csv_key_membership": 1,
+    "paper_table_csv_columns": 36,
+    "paper_table_csv_values": 828,
+    "model_identity": 6,
+    "model_cpu_threads": 6,
+    "model_cpu_affinity": 6,
+    "model_thread_environment": 6,
+    "model_software": 6,
+    "model_warmup": 6,
+    "model_loader_hash": 6,
+    "native_source_manifest": 6,
+    "native_source_hash": 90,
+    "canonical_checkpoint_bytes": 6,
+    "distinct_physical_core_assignment": 1,
+    "hardware_topology_config": 1,
+    "worker_completion": 1,
+    "worker_cpu_record": 6,
+    "trials_inside_worker_lifetime": 6,
+    "slot_no_overlap": 3,
+    "worker_concurrency_cap": 1,
+    "completed_status": 1
+  },
+  "trials": 21960,
+  "model_map_pairs": 7320,
+  "models": [
+    "strict_seed8",
+    "relaxed_seed8",
+    "strict_seed42",
+    "relaxed_seed42",
+    "strict_seed77",
+    "relaxed_seed77"
+  ],
+  "map_counts": {
+    "synthetic": 720,
+    "osm": 500
+  },
+  "outcomes": [
+    {
+      "model": "strict_seed8",
+      "source": "all",
+      "n": 1220,
+      "success": 1220,
+      "failed": 0
+    },
+    {
+      "model": "strict_seed8",
+      "source": "synthetic",
+      "n": 720,
+      "success": 720,
+      "failed": 0
+    },
+    {
+      "model": "strict_seed8",
+      "source": "osm",
+      "n": 500,
+      "success": 500,
+      "failed": 0
+    },
+    {
+      "model": "relaxed_seed8",
+      "source": "all",
+      "n": 1220,
+      "success": 1177,
+      "failed": 43
+    },
+    {
+      "model": "relaxed_seed8",
+      "source": "synthetic",
+      "n": 720,
+      "success": 677,
+      "failed": 43
+    },
+    {
+      "model": "relaxed_seed8",
+      "source": "osm",
+      "n": 500,
+      "success": 500,
+      "failed": 0
+    },
+    {
+      "model": "strict_seed42",
+      "source": "all",
+      "n": 1220,
+      "success": 1220,
+      "failed": 0
+    },
+    {
+      "model": "strict_seed42",
+      "source": "synthetic",
+      "n": 720,
+      "success": 720,
+      "failed": 0
+    },
+    {
+      "model": "strict_seed42",
+      "source": "osm",
+      "n": 500,
+      "success": 500,
+      "failed": 0
+    },
+    {
+      "model": "relaxed_seed42",
+      "source": "all",
+      "n": 1220,
+      "success": 1181,
+      "failed": 39
+    },
+    {
+      "model": "relaxed_seed42",
+      "source": "synthetic",
+      "n": 720,
+      "success": 681,
+      "failed": 39
+    },
+    {
+      "model": "relaxed_seed42",
+      "source": "osm",
+      "n": 500,
+      "success": 500,
+      "failed": 0
+    },
+    {
+      "model": "strict_seed77",
+      "source": "all",
+      "n": 1220,
+      "success": 1220,
+      "failed": 0
+    },
+    {
+      "model": "strict_seed77",
+      "source": "synthetic",
+      "n": 720,
+      "success": 720,
+      "failed": 0
+    },
+    {
+      "model": "strict_seed77",
+      "source": "osm",
+      "n": 500,
+      "success": 500,
+      "failed": 0
+    },
+    {
+      "model": "relaxed_seed77",
+      "source": "all",
+      "n": 1220,
+      "success": 1178,
+      "failed": 42
+    },
+    {
+      "model": "relaxed_seed77",
+      "source": "synthetic",
+      "n": 720,
+      "success": 678,
+      "failed": 42
+    },
+    {
+      "model": "relaxed_seed77",
+      "source": "osm",
+      "n": 500,
+      "success": 500,
+      "failed": 0
+    }
+  ],
+  "successful_model_map_pairs": 7196,
+  "failed_model_map_pairs": 124,
+  "common_success_maps": {
+    "synthetic": 672,
+    "osm": 500
+  },
+  "hardware": {
+    "cpu_models": [
+      "Intel(R) Xeon(R) Silver 4214 CPU @ 2.20GHz"
+    ],
+    "logical_cpus": 48,
+    "physical_cores": 24,
+    "sockets": 2,
+    "logical_threads_per_physical_core": [
+      2
+    ],
+    "selected_cpu_topology": {
+      "0": {
+        "topology_verified": true,
+        "physical_package_id": 0,
+        "core_id": 0,
+        "numa_node": 0
+      },
+      "1": {
+        "topology_verified": true,
+        "physical_package_id": 0,
+        "core_id": 1,
+        "numa_node": 0
+      },
+      "2": {
+        "topology_verified": true,
+        "physical_package_id": 0,
+        "core_id": 2,
+        "numa_node": 0
+      }
+    },
+    "smt_siblings": {
+      "0": [
+        0,
+        24
+      ],
+      "1": [
+        1,
+        25
+      ],
+      "2": [
+        2,
+        26
+      ]
+    }
+  },
+  "software": {
+    "numpy": "2.2.6",
+    "torch": "2.7.1",
+    "gymnasium": "1.1.1",
+    "stable-baselines3": "2.7.0",
+    "sb3-contrib": "2.7.0",
+    "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:45:41) [GCC 13.3.0]",
+    "platform": "Linux-5.15.0-131-generic-x86_64-with-glibc2.31",
+    "torch_runtime_version": "2.7.1+cu126"
+  },
+  "maximum_observed_workers": 3,
+  "workers": [
+    {
+      "model_key": "strict_seed8",
+      "worker_slot": 0,
+      "cpu_ids": [
+        0
+      ],
+      "pid": 2977613,
+      "started_at": "2026-10-31T09:07:37.931425+00:00",
+      "ended_at": "2026-10-31T16:38:32.054015+00:00",
+      "return_code": 0
+    },
+    {
+      "model_key": "strict_seed42",
+      "worker_slot": 1,
+      "cpu_ids": [
+        1
+      ],
+      "pid": 2977614,
+      "started_at": "2026-10-31T09:07:37.946372+00:00",
+      "ended_at": "2026-10-31T16:34:24.364112+00:00",
+      "return_code": 0
+    },
+    {
+      "model_key": "strict_seed77",
+      "worker_slot": 2,
+      "cpu_ids": [
+        2
+      ],
+      "pid": 2977615,
+      "started_at": "2026-10-31T09:07:37.962280+00:00",
+      "ended_at": "2026-10-31T16:31:55.794982+00:00",
+      "return_code": 0
+    },
+    {
+      "model_key": "relaxed_seed77",
+      "worker_slot": 2,
+      "cpu_ids": [
+        2
+      ],
+      "pid": 3275209,
+      "started_at": "2026-10-31T16:31:56.010565+00:00",
+      "ended_at": "2026-11-01T02:06:55.284471+00:00",
+      "return_code": 0
+    },
+    {
+      "model_key": "relaxed_seed42",
+      "worker_slot": 1,
+      "cpu_ids": [
+        1
+      ],
+      "pid": 3276853,
+      "started_at": "2026-10-31T16:34:24.578376+00:00",
+      "ended_at": "2026-11-01T01:56:27.262957+00:00",
+      "return_code": 0
+    },
+    {
+      "model_key": "relaxed_seed8",
+      "worker_slot": 0,
+      "cpu_ids": [
+        0
+      ],
+      "pid": 3279527,
+      "started_at": "2026-10-31T16:38:32.270371+00:00",
+      "ended_at": "2026-11-01T03:01:23.073259+00:00",
+      "return_code": 0
+    }
+  ],
+  "elapsed_wall_seconds": 64429.349836,
+  "load_average_start": [
+    17.42,
+    17.7,
+    17.97
+  ],
+  "load_average_end": [
+    11.66,
+    11.08,
+    11.23
+  ],
+  "unavailable_local_source_files": [],
+  "manifest_identity": {
+    "recorded_server_original_sha256": "6c3853577b5a8b96178e89caa81311091b6aa17c37f6cb11dfdeb4f24a77e68a",
+    "registered_server_original_sha256": "6c3853577b5a8b96178e89caa81311091b6aa17c37f6cb11dfdeb4f24a77e68a",
+    "local_public_archive_manifest_sha256": "42d7123a91e13216696e10ffd9c8c24291022e97cd250df23d1e689097871d69",
+    "interpretation": "Original server manifest matches its original registry. Public-archive manifest bytes may differ because paths are relocated/redacted; all selected map identities and canonical hashes were checked against the pinned Test catalog."
+  },
+  "evidence_limits": [
+    "Hardware, affinity, thread counts and runtime details are recorded metadata; no external scheduler/process telemetry was supplied.",
+    "Distinct physical-core pinning does not reserve those cores or their SMT siblings against unrelated processes.",
+    "Load averages alone do not establish CPU contention, its location, or its effect on any trial.",
+    "Source/checkpoint metadata hashes were checked against local registered bytes; remote map files were not independently reread in this audit.",
+    "Repeated trajectory identity was checked from recorded action hashes/metrics; complete action arrays are not included in this timing archive.",
+    "Native summaries are model/seed-specific; pooled method-by-domain paper statistics are a separate aggregation."
+  ]
+}

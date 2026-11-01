@@ -1,0 +1,17 @@
+Audit outcome: PASS; 0 detected inconsistencies.
+Exact membership: 21960 trials, 7320 model-map pairs, 1220 maps, 6 models, 3 repeats.
+JSONL and per_trial CSV agree exactly; per_map, summary and paper_table were recomputed independently.
+Successful model-map pairs: 7196; failed: 124.
+Six-model common-success maps: {'synthetic': 672, 'osm': 500}.
+Repeated route hashes/metrics are stable and all failures omit refinement/complete-plan times.
+CPU: Intel Xeon Silver 4214; 48 logical CPUs / 24 physical cores / 2 sockets; CPUs 0,1,2 use distinct socket-0/node-0 cores.
+Each worker records CPU-only tensors, 1 intra-op and 1 inter-op thread, six thread environment variables set to 1, and one successful Raw+refinement warm-up.
+All six workers exited with code 0; no slot overlap; maximum concurrent workers = 3.
+Run wall duration: 64429.349836 s; load averages start=[17.42, 17.7, 17.97], end=[11.66, 11.08, 11.23].
+Limits:
+- Hardware, affinity, thread counts and runtime details are recorded metadata; no external scheduler/process telemetry was supplied.
+- Distinct physical-core pinning does not reserve those cores or their SMT siblings against unrelated processes.
+- Load averages alone do not establish CPU contention, its location, or its effect on any trial.
+- Source/checkpoint metadata hashes were checked against local registered bytes; remote map files were not independently reread in this audit.
+- Repeated trajectory identity was checked from recorded action hashes/metrics; complete action arrays are not included in this timing archive.
+- Native summaries are model/seed-specific; pooled method-by-domain paper statistics are a separate aggregation.

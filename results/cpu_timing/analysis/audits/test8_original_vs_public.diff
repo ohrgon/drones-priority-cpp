@@ -1,0 +1,47 @@
+--- original_MAIN_SEEDS_8_77/ch5_vendor/test8_original.py
++++ pinned_public/src/main_seeds_8_77/ch5_vendor/test8_original.py
+@@ -42,7 +42,7 @@
+ sys.dont_write_bytecode = True
+ VERSION = 'test8_native_action_choices_v1_20261002'
+ DEFAULT_OUT = 'chapter5_TEST8_action_choices_B0_40M_B6_5M'
+-STRICT_DIR = 'chapter4_COST11_STRICT_BETAS_50M_v2_seed42'
++STRICT_DIR = 'strict_beta_runs_seed42'
+ RELAXED_DIR = 'chapter4_COST11_5M_to_20M_seed42'
+ STRICT_PLAN_VERSION = 'cost11_strict50m_native_v2_20261001'
+ STRICT_LAUNCHER_SHA = '8f1610a290be3120804e4d48c7e5b77a431f52fe0b776fec5b288514de44a351'
+@@ -340,7 +340,7 @@
+         software_path = case / 'runs' / spec['run_id'] / 'software.json'
+         software = read(software_path) if software_path.is_file() else None
+         if software is None:
+-            software_path = root/'chapter4_5m_seed42'/'completed_model_test_full'/'test_protocol.json'
++            software_path = root/'protocols_5m_seed42'/'completed_model_test_full'/'test_protocol.json'
+             software = read(software_path)['evaluation_versions']
+             software_evidence = str(software_path)+'::evaluation_versions (recorded evaluation runtime)'
+         else:
+@@ -361,7 +361,7 @@
+ 
+ 
+ def classical_inputs(root, manifest_sha, strict_input, replay):
+-    base = root / 'chapter4_5m_seed42'; report = base / 'completed_model_test_full'
++    base = root / 'protocols_5m_seed42'; report = base / 'completed_model_test_full'
+     ep = report / 'test_protocol.json'; p = read(ep)
+     cp = report / 'classical_priority_planners_protocol.json'; c = read(cp)
+     rp = base / 'runs' / c['reference_run'] / 'run_spec.json'; spec = read(rp)
+@@ -403,7 +403,7 @@
+ 
+ def build_plan(args):
+     root, out = args.root, args.out
+-    manifest = root / 'chapter4_5m_seed42' / 'manifest.csv'
++    manifest = root / 'protocols_5m_seed42' / 'manifest.csv'
+     rr, tests = validate_manifest(manifest); mh = sha(manifest)
+     strict = strict_inputs(root, args.strict_root, mh)
+     relaxed = relaxed_inputs(root, args.relaxed_root, mh)
+@@ -1128,7 +1128,7 @@
+     require(args.out!=args.root,'Output cannot be the source suite root')
+     args.strict_root=resolve(args.strict_root or STRICT_DIR,args.root)
+     args.relaxed_root=resolve(args.relaxed_root or RELAXED_DIR,args.root)
+-    for protected in (args.strict_root,args.relaxed_root,args.root/'chapter4_5m_seed42'):
++    for protected in (args.strict_root,args.relaxed_root,args.root/'protocols_5m_seed42'):
+         require(args.out!=protected and protected not in args.out.parents,
+                 'Use a NEW output outside the original training/results directories: '+str(protected))
+     require(1<=args.workers<=8 and 1<=args.threads<=32,'workers:1..8; threads:1..32')

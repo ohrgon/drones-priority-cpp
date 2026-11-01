@@ -1,0 +1,18 @@
+{
+  "python": "3.10.18 | packaged by conda-forge | (main, Jun  4 2025, 14:45:41) [GCC 13.3.0]",
+  "platform": "Linux-5.15.0-131-generic-x86_64-with-glibc2.31",
+  "cpu_count": 48,
+  "numpy": "2.2.6",
+  "torch": "2.7.1",
+  "gymnasium": "1.1.1",
+  "stable-baselines3": "2.7.0",
+  "sb3-contrib": "2.7.0",
+  "scipy": "1.9.1",
+  "pyproj": null,
+  "shapely": null,
+  "cuda_available": true,
+  "gpus": [
+    "NVIDIA GeForce RTX 3090"
+  ],
+  "cuda_version": "12.6"
+}

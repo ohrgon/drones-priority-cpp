@@ -1,0 +1,69 @@
+CPU timing package V3: validation record (2026-10-31)
+Public reference commit: 8e19d8822983245b811b83e88c99fd2be548a044
+Original MAIN_SEEDS_8_77.zip SHA256:
+675c4fa94d0d80d51dba450fe12483d6c801969003ce4a88972589cca75ad3dd
+
+Purpose of V3:
+- Support the original server suite with --suite-root, the old 1gb layout
+  (src/MAIN_SEEDS_8_77 + audit), the full collector layout
+  (src/original/root0/MAIN_SEEDS_8_77), and the public archive layout.
+- Resolve existing files; do not download, copy, rewrite or train model inputs.
+- Preserve V2 timing boundaries, parallel CPU allocation and result accounting.
+
+Source identity established before this change:
+1. The original source ZIP matches the original collection registry SHA256.
+2. Original and published test8_original.py differ in five experiment-folder
+   string locations. initial_condition, policy_action, evaluate_map,
+   native_runtime, load_model and related helpers are byte-identical functions
+   and have identical function ASTs.
+3. seed_evaluation.py, ch5_common.py, SegmentGraph, both runtime trees and both
+   templates are byte-identical between the registered original and public code.
+4. Only two exact PACKAGE_SHA256.json anchors are accepted:
+   original: 3aee1458499f25f50b9c6d7f15154650622075258539a5f19c8ff3105d36319c
+   public:   6ff6f835e9adfcb95550cbdc23706831ab0e40737fe19b2319acdec988364b86
+   Every imported wrapper/runtime/template is checked against its anchored
+   manifest. Every selected checkpoint is checked against its canonical SHA256.
+
+Validation completed:
+1. Existing 32 focused timing/statistics, physical-core allocation, scheduling,
+   failed-trial accounting, interruption and CPU-identity tests pass in V3.
+2. Twelve resolver fixture checks passed: public/old/full-collector/original
+   locations, exact checkpoint registrations, receipt relocation, unknown source
+   rejection and conflicting metadata rejection.
+3. Native source/checkpoint audits passed for four layouts x Strict/Relaxed
+   seed42 (8 cases), stopping deliberately before dependency/model imports.
+   Modified source, unregistered source manifest, out-of-package source symlink
+   and wrong checkpoint bytes were each rejected.
+4. Actual trained-model ORIGINAL-SUITE integration completed 12/12 trials:
+   all six final checkpoints x two Test maps x one repeat, workers=3 and
+   threads=2. Raw and Refined native replay/invariant checks passed.
+5. All 12 original-suite trials were compared with the existing V2 public-source
+   integration. Raw/Refined action hashes, initial-condition IDs, step counts,
+   modeled T and modeled Lw match exactly for every trial.
+6. Actual LEGACY-1GB preflight loaded all six checkpoints on CPU, validated the
+   selected two maps and original source files, and passed --check-only.
+7. Public/legacy/full-collector/original fixtures use the actual registered
+   source files and actual six checkpoints. They simulate server file placement;
+   they do not establish which files currently exist on the user's server.
+8. The bounded diagnostic script was checked for exact legacy source discovery,
+   small-file SHA reporting, training-receipt reading, directory/CSV limits,
+   non-overwrite report behavior, and absence of model execution.
+
+Actual integration environment:
+- Python 3.12; NumPy 2.2.6; torch 2.7.1+cpu; Gymnasium 1.1.1;
+  stable-baselines3 and sb3-contrib 2.7.0.
+- --allow-version-difference explicitly recorded the CPU-build version difference.
+- Three disjoint CPU groups [[0,1],[2,3],[4,5]], two threads per worker.
+- The validation environment exposes nine verified physical cores, so the
+  user's intended three workers x four threads was not used for integration.
+  Insufficient-core rejection and 3x4 allocation logic were validated separately.
+
+Limits and reporting:
+- These are implementation checks, not the manuscript's server runtime study.
+- The complete 1220-map x six-model x three-repeat measurement was not run here.
+- No local timing values are supplied as results for the user's server.
+- Native code and model/map contents are not included in this wrapper ZIP;
+  reference_test_maps.json is an identity catalog, not map arrays.
+- Three workers do not imply an exact 3x speed-up or a real-time guarantee.
+- Affinity does not exclusively reserve cores from unrelated server processes.
+- Use fresh V3 output directories. Resume V1/V2 results with their original code.

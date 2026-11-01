@@ -1,0 +1,17 @@
+﻿domain,method,training_seed,n_evaluated_pairs,n_failed_pairs,failed_pct,mean_sec,median_sec,p95_sec,min_sec,max_sec,max_single_trial_sec
+synthetic,strict,pooled,2160,0,0.0,,,,,,
+synthetic,strict,8,720,0,0.0,,,,,,
+synthetic,strict,42,720,0,0.0,,,,,,
+synthetic,strict,77,720,0,0.0,,,,,,
+synthetic,relaxed,pooled,2160,124,5.7407407407407405,4.8066995367903225,4.4034818495,8.82114655765,2.017583344,11.529026437,12.153535271
+synthetic,relaxed,8,720,43,5.972222222222222,4.64143053827907,4.200565076,7.9652019255,2.034857389,9.547370428,9.765020589
+synthetic,relaxed,42,720,39,5.416666666666667,4.996838289974359,4.42216719,8.9408424689,2.061153619,11.529026437,12.153535271
+synthetic,relaxed,77,720,42,5.833333333333333,4.7993460977857145,4.427154448,8.734141418649996,2.017583344,11.124184204,11.134522752
+osm,strict,pooled,1500,0,0.0,,,,,,
+osm,strict,8,500,0,0.0,,,,,,
+osm,strict,42,500,0,0.0,,,,,,
+osm,strict,77,500,0,0.0,,,,,,
+osm,relaxed,pooled,1500,0,0.0,,,,,,
+osm,relaxed,8,500,0,0.0,,,,,,
+osm,relaxed,42,500,0,0.0,,,,,,
+osm,relaxed,77,500,0,0.0,,,,,,

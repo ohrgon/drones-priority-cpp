@@ -1,0 +1,17 @@
+drones_cpu_timing_v3_original_inputs_20261031
+Status: COMPLETE
+Measured trials: 21960/21960
+CPU pool: [0, 1, 2]; maximum concurrent workers: 3; threads per worker: 1
+Timing unit: seconds. Each map is summarized by its median over measured repetitions.
+P95 uses linear interpolation over map medians. max_single_trial is the largest observed repetition.
+Complete-plan statistics exclude failed Raw episodes; failure attempt times remain in per_trial.csv/summary.csv.
+Raw includes native diagnostics/trace construction. Refinement includes replay and invariant validation.
+Excluded: model loading, map I/O/hash checks, initial-condition selection, warm-up, output I/O and KMZ export.
+These are observed offline planning times, not real-time or worst-case guarantees.
+
+strict_seed8: completed 1220/1220; mean total plan = 7.093051 s
+relaxed_seed8: completed 1177/1220; mean total plan = 10.085656 s
+strict_seed42: completed 1220/1220; mean total plan = 7.029504 s
+relaxed_seed42: completed 1181/1220; mean total plan = 9.032119 s
+strict_seed77: completed 1220/1220; mean total plan = 6.967247 s
+relaxed_seed77: completed 1178/1220; mean total plan = 9.281768 s

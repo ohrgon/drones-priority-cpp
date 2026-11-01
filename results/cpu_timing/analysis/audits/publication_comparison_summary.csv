@@ -1,0 +1,13 @@
+﻿model_key,stage,maps,raw_failures,success_equal,identity_mismatches,metrics_compared,steps_numeric_pairs,steps_both_undefined,steps_exact_equal,T_numeric_pairs,T_both_undefined,T_exact_equal,Lw_numeric_pairs,Lw_both_undefined,Lw_exact_equal,steps_maximum_absolute_difference,T_maximum_absolute_difference,Lw_maximum_absolute_difference,reference_file,not_refined_failed_raw
+strict_seed8,raw,1220,0,1220,0,1220,1220,0,1220,1220,0,1220,1220,0,1220,0.0,0.0,0.0,results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv,
+strict_seed8,refined,1220,0,1220,0,1220,1220,0,1220,1220,0,1220,1220,0,1220,0.0,0.0,0.0,results/main_seeds_8_77/strict_seed8/evaluation/test/refined_per_map.csv,
+relaxed_seed8,raw,1220,43,1220,0,1220,1220,0,1220,1220,0,1220,1177,43,1220,0.0,0.0,0.0,results/main_seeds_8_77/relaxed_seed8/evaluation/test/raw_per_map.csv,
+relaxed_seed8,refined,1220,43,1220,0,1177,1177,0,1177,1177,0,1177,1177,0,1177,0.0,0.0,0.0,results/main_seeds_8_77/relaxed_seed8/evaluation/test/refined_per_map.csv,43
+strict_seed42,raw,1220,0,1220,0,1220,1220,0,1220,1220,0,1220,1220,0,1220,0.0,0.0,0.0,src/refinement_relaxed_b6_40m/reference/previous_B0124_classical_Raw_Refined.csv.gz,
+strict_seed42,refined,1220,0,1220,0,1220,1220,0,1220,1220,0,1220,1220,0,1220,0.0,0.0,0.0,src/refinement_relaxed_b6_40m/reference/previous_B0124_classical_Raw_Refined.csv.gz,
+relaxed_seed42,raw,1220,39,1220,0,1220,1220,0,1220,1220,0,1220,1181,39,1220,0.0,0.0,0.0,results/refinement_b6_common/report/all_B6_raw_refined_per_map.csv,
+relaxed_seed42,refined,1220,39,1220,0,1181,1181,0,1181,1181,0,1181,1181,0,1181,0.0,0.0,0.0,results/refinement_b6_common/report/all_B6_raw_refined_per_map.csv,39
+strict_seed77,raw,1220,0,1220,0,1220,1220,0,1220,1220,0,1220,1220,0,1220,0.0,0.0,0.0,results/main_seeds_8_77/strict_seed77/evaluation/test/raw_per_map.csv,
+strict_seed77,refined,1220,0,1220,0,1220,1220,0,1220,1220,0,1220,1220,0,1220,0.0,0.0,0.0,results/main_seeds_8_77/strict_seed77/evaluation/test/refined_per_map.csv,
+relaxed_seed77,raw,1220,42,1220,0,1220,1220,0,1220,1220,0,1220,1178,42,1220,0.0,0.0,0.0,results/main_seeds_8_77/relaxed_seed77/evaluation/test/raw_per_map.csv,
+relaxed_seed77,refined,1220,42,1220,0,1178,1178,0,1178,1178,0,1178,1178,0,1178,0.0,0.0,0.0,results/main_seeds_8_77/relaxed_seed77/evaluation/test/refined_per_map.csv,42

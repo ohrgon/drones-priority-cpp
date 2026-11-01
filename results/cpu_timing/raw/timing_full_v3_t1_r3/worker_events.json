@@ -1,0 +1,68 @@
+[
+  {
+    "model_key": "strict_seed8",
+    "worker_slot": 0,
+    "cpu_ids": [
+      0
+    ],
+    "pid": 2977613,
+    "started_at": "2026-10-31T09:07:37.931425+00:00",
+    "ended_at": "2026-10-31T16:38:32.054015+00:00",
+    "return_code": 0
+  },
+  {
+    "model_key": "strict_seed42",
+    "worker_slot": 1,
+    "cpu_ids": [
+      1
+    ],
+    "pid": 2977614,
+    "started_at": "2026-10-31T09:07:37.946372+00:00",
+    "ended_at": "2026-10-31T16:34:24.364112+00:00",
+    "return_code": 0
+  },
+  {
+    "model_key": "strict_seed77",
+    "worker_slot": 2,
+    "cpu_ids": [
+      2
+    ],
+    "pid": 2977615,
+    "started_at": "2026-10-31T09:07:37.962280+00:00",
+    "ended_at": "2026-10-31T16:31:55.794982+00:00",
+    "return_code": 0
+  },
+  {
+    "model_key": "relaxed_seed77",
+    "worker_slot": 2,
+    "cpu_ids": [
+      2
+    ],
+    "pid": 3275209,
+    "started_at": "2026-10-31T16:31:56.010565+00:00",
+    "ended_at": "2026-11-01T02:06:55.284471+00:00",
+    "return_code": 0
+  },
+  {
+    "model_key": "relaxed_seed42",
+    "worker_slot": 1,
+    "cpu_ids": [
+      1
+    ],
+    "pid": 3276853,
+    "started_at": "2026-10-31T16:34:24.578376+00:00",
+    "ended_at": "2026-11-01T01:56:27.262957+00:00",
+    "return_code": 0
+  },
+  {
+    "model_key": "relaxed_seed8",
+    "worker_slot": 0,
+    "cpu_ids": [
+      0
+    ],
+    "pid": 3279527,
+    "started_at": "2026-10-31T16:38:32.270371+00:00",
+    "ended_at": "2026-11-01T03:01:23.073259+00:00",
+    "return_code": 0
+  }
+]

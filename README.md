@@ -23,12 +23,14 @@ minted from each GitHub release; cite the version you used (see `CITATION.cff`).
 | `results/main_seeds_8_77/` | Raw and refined per-map test results (Synthetic 720 + OSM 500) for seeds 8 and 77, Strict and Relaxed, plus training summaries. |
 | `results/mask_controls_seed42/` | No-mask and Boundary-only controls (fresh 40M training, seed 42), raw test results. |
 | `results/refinement_b6_common/` | Connection refinement of Relaxed (B = 6) on the common-success map set, with the per-map audit. |
-| `results/TABLE_SOURCE_MAP.json` | Which files feed each table of the manuscript (Tables 11–23 of the article and Tables S1–S7 of the Supplementary Materials). |
+| `results/cpu_timing/` | CPU wall-clock planning-time measurements behind Section 5.5, Table 24 and Table S8: all 21,960 trials (6 models × 1,220 Test maps × 3 repetitions), the run configuration and hardware records, the aggregated tables and a provenance audit. See `results/cpu_timing/README.md`. |
+| `results/TABLE_SOURCE_MAP.json` | Which files feed each table of the manuscript (Tables 11–24 of the article and Tables S1–S8 of the Supplementary Materials). |
 | `src/` | Experiment packages (see below). Seed-42 per-map results that the tables also use are stored as reference inputs inside these packages. |
 | `environment/` | Software and hardware of the original training machine. |
 | `provenance/` | Checkpoint hashes, the list of items that were not available when this bundle was assembled, and the old → new name map. |
 | `scripts/verify_bundle.py` | Checks every file against `FILES_SHA256SUMS.json`. |
 | `scripts/table23_reproduce.py` | Recomputes the measured durations and path-correspondence RMS of Table 23 from the flight records, the route binding and the planned routes. |
+| `scripts/table24_reproduce.py` | Recomputes Table 24, Table S8 and the other files of `results/cpu_timing/analysis/` from the raw timing trials (standard library only). |
 
 ## Experiment packages (`src/`)
 
@@ -42,6 +44,7 @@ minted from each GitHub release; cite the version you used (see `CITATION.cff`).
 | `budget_b1_b2_b4_40m/` | Relaxed with B = 1, 2, 4 at 40M steps. |
 | `relaxed_b6_resume_20m_to_40m/` | Continuation of the seed-42 Relaxed B = 6 policy from 20M to 40M steps. |
 | `mask_controls_40m/` | No-mask and Boundary-only controls. |
+| `cpu_timing/` | CPU planning-time benchmark used for Table 24 and Table S8: times the native `evaluate_map()` rollout and `common_refine()` refinement of `main_seeds_8_77/` for the six final checkpoints on the 1,220 Test maps, with checkpoint, map and source hash checks. `README_KO.md` gives the run instructions; the measured run is in `results/cpu_timing/`. |
 
 Each package keeps its original Korean run notes (`README_KO.md`) and a `PACKAGE_SHA256.json` listing its files.
 
@@ -89,7 +92,8 @@ This is a materials archive, not a turnkey pipeline. Please note:
   the protocol files are provenance records; the folders themselves are not part of this repository.
 - Not included: the synthetic-map generator scripts, training logs and intermediate checkpoints, and
   the scripts that aggregate per-map CSVs into the manuscript tables (`scripts/table23_reproduce.py`
-  covers Table 23, whose two measured columns are reproduced exactly).
+  covers Table 23, whose two measured columns are reproduced exactly, and `scripts/table24_reproduce.py`
+  covers Table 24 and Table S8, which are reproduced exactly from the raw timing trials).
   `provenance/PACKER_MISSING_ITEMS.json` lists the items that were unavailable when the bundle was
   assembled; the flight records, their route binding and the planned routes have since been added under
   `data/flight_logs/`.

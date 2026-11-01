@@ -438,6 +438,31 @@
     "note": "Flight records, route binding and planned routes were added after the automated packing. Both measured columns (T_exec and path-correspondence RMS) are reproduced by the aggregation script."
   },
   {
+    "table_id": "Table 24",
+    "source_files": [
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed8.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed42.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed77.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed8.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed42.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed77.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/per_trial.csv",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/run_config.json",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/status.json",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/hardware.json",
+      "results/cpu_timing/analysis/Table24_CPU_planning_times.csv",
+      "results/cpu_timing/analysis/failed_attempt_statistics.csv",
+      "results/cpu_timing/analysis/stage_time_shares.csv",
+      "results/cpu_timing/analysis/planning_to_matched_mission_time.csv"
+    ],
+    "aggregation_script": "scripts/table24_reproduce.py",
+    "status": "complete",
+    "missing_groups": [],
+    "missing_explicit_paths": [],
+    "aggregation_contract": "Per model-map pair, median of three repetitions per timing; successful pairs pooled over the three training seeds within domain x method; mean/median/P95 (linear interpolation) over per-pair medians; max over all individual repetitions; failed Raw attempts reported separately. Table note values come from failed_attempt_statistics.csv; Section 5.5 shares and ratios from stage_time_shares.csv and planning_to_matched_mission_time.csv.",
+    "reaggregation_executed": true
+  },
+  {
     "table_id": "Table S1",
     "source_files": [
       "results/main_seeds_8_77/strict_seed8/evaluation/test/raw_per_map.csv",
@@ -722,5 +747,28 @@
     "missing_explicit_paths": [],
     "aggregation_contract": "Per-seed paired gaps/dominance under Table22 fixed admissibility groups.",
     "reaggregation_executed": false
+  },
+  {
+    "table_id": "Table S8",
+    "source_files": [
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed8.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed42.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/strict_seed77.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed8.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed42.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/trials/relaxed_seed77.jsonl",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/per_trial.csv",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/run_config.json",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/status.json",
+      "results/cpu_timing/raw/timing_full_v3_t1_r3/hardware.json",
+      "results/cpu_timing/analysis/TableS8_seedwise_CPU_planning_times.csv",
+      "results/cpu_timing/analysis/failed_attempt_statistics.csv"
+    ],
+    "aggregation_script": "scripts/table24_reproduce.py",
+    "status": "complete",
+    "missing_groups": [],
+    "missing_explicit_paths": [],
+    "aggregation_contract": "Same as Table 24, kept per training seed (domain x method x seed).",
+    "reaggregation_executed": true
   }
 ]
